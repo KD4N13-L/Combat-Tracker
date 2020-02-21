@@ -9,12 +9,14 @@ It will consist of two main parts: the Initiative Tracker and Hit Point (hereby 
 The HP Tracker displays the HP of each DM-controlled participant and shows the change of HP throughout the combat encounter. 
 
 TARGET USERS:
+
 Who: Dungeon Masters 
 What: The app allows the user to easily organize the start of combat by rolling initiative for all DM-controlled characters and track each of their HP throughout the encounter.
 When: End of the Spring 2020 semester 
 How: Python
 
 USER SOLVED PROBLEMS:
+
 User Need: A
 Resolution: A
 User Need: A
@@ -29,6 +31,7 @@ User Need: A
 Resolution: A
 
 USER STORIES:
+
 1. 
 2. 
 3. 
