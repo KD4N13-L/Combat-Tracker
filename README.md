@@ -11,29 +11,44 @@ It will consist of two main parts: the Initiative Tracker and Hit Point (hereby 
 
 The HP Tracker displays the HP of each DM-controlled participant and shows the change of HP throughout the combat encounter. 
 
+
 TARGET USERS:
 
 Who: Dungeon Masters 
+
 What: The app allows the user to easily organize the start of combat by rolling initiative for all DM-controlled characters and track each of their HP throughout the encounter.
+
 When: End of the Spring 2020 semester 
+
 How: Python
+
 
 USER PROBLEMS SOLVED:
 
 User Need: Roll Initiative for all DM-controlled encounter participants. 
+
 Resolution: Combat Tracker chooses a random number from 1 to 20 (representing the 20-sided die a.k.a. d20) and adds each participant's initiative modifier to the number.
 
+
 User Need: Order all encounter participants in the initiative order frm highest to lowest.
+
 Resolution: Combat Tracker orders all participants, both DM-controlled and PCs, first by their roll, and, in case of equal totals, by their initiative modifiers. It then display's the order, including information about the roll, the initiative modifier, the initiative count 20, and whether the participant is a PC or a DM-controlled creature.
 
+
 User Need: Track and display DM-controlled creatures' HP
+
 Resolution: Combat Tracker displays each DM-controlled creatures' HP and allows to easily type in any changes to it, be it damage (negative) or healing(positive). It then displays the change, including information about change
+
 
 USER STORIES:
 
 1. As a user, I can quickly create adn track the initiative order of the encounter.
+
   a. As a user, I can pick DM-controlled participants from the list;
+  
   b. As a user, I can roll initiative for each DM-controlled participant;
+  
   c. As a user, I can, including the PCs' rolls, order the initiative list from highest to lowest;
+
 2. As a user, I can display each DM-controlled participant's HP individually and apply changes to it, which will be displayed as well.
 
