@@ -52,3 +52,7 @@ USER STORIES:
 
 2. As a user, I can display each DM-controlled participant's HP individually and apply changes to it, which will be displayed as well.
 
+
+COMPETITORS:
+
+D&D Beyond's Combat Tracker - currently in Alpha version, meaning it is available to all Subscribers (paid), who can access it and give feedback. 
