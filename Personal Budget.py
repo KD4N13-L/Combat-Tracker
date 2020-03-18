@@ -1,4 +1,5 @@
 import json
+
 personal_budget = {}
 personal_budget ["date"] = "26.02.2020"
 
