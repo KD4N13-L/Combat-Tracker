@@ -48,7 +48,9 @@ USER STORIES:
   
   b. As a user, I can roll initiative for each DM-controlled participant;
   
-  c. As a user, I can, including the PCs' rolls, order the initiative list from highest to lowest;
+  c. As a user, I can save PCs infromation for later use;
+  
+  d. As a user, I can, including the PCs' rolls, create the initiative list by ordering all of the participants from highest to lowest, and then display it;
 
 2. As a user, I can display each DM-controlled participant's HP individually and apply changes to it, which will be displayed as well.
 
