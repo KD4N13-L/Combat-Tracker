@@ -38,43 +38,36 @@ pc7 ["initiative"] = 0
 pc7 ["dexterity"] = 0
 
 print ("PC1:")
-
 pc1["name"] = input("Name: ")
 pc1["initiative"] = int(input("Initiative Score: "))
 pc1["dexterity"] = int(input("Dexterity Modifier: "))
 
 print ("PC2:")
-
 pc2["name"] = input("Name: ")
 pc2["initiative"] = int(input("Initiative Score: "))
 pc2["dexterity"] = int(input("Dexterity Modifier: "))
 
 print ("PC3:")
-
 pc3["name"] = input("Name: ")
 pc3["initiative"] = int(input("Initiative Score: "))
 pc3["dexterity"] = int(input("Dexterity Modifier: "))
 
 print ("PC4:")
-
 pc4["name"] = input("Name: ")
 pc4["initiative"] = int(input("Initiative Score: "))
 pc4["dexterity"] = int(input("Dexterity Modifier: "))
 
 print ("PC5:")
-
 pc5["name"] = input("Name: ")
 pc5["initiative"] = int(input("Initiative Score: "))
 pc5["dexterity"] = int(input("Dexterity Modifier: "))
 
 print ("PC6:")
-
 pc6["name"] = input("Name: ")
 pc6["initiative"] = int(input("Initiative Score: "))
 pc6["dexterity"] = int(input("Dexterity Modifier: "))
 
 print ("PC7:")
-
 pc7["name"] = input("Name: ")
 pc7["initiative"] = int(input("Initiative Score: "))
 pc7["dexterity"] = int(input("Dexterity Modifier: "))
