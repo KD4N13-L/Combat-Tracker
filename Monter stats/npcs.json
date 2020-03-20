@@ -1,0 +1,82 @@
+{
+  "acolyte": {
+    "dexterity": "0",
+    "name": "Acolyte"
+  },
+  "archmage": {
+    "dexterity": "2",
+    "name": "Archmage"
+  },
+  "assassin": {
+    "dexterity": "3",
+    "name": "Assassin"
+  },
+  "bandit": {
+    "dexterity": "1",
+    "name": "Bandit"
+  },
+  "bandit_captain": {
+    "dexterity": "3",
+    "name": "Bandit Captain"
+  },
+  "commoner": {
+    "dexterity": "0",
+    "name": "Commoner"
+  },
+  "cult_fanatic": {
+    "dexterity": "2",
+    "name": "Cult Fanatic"
+  },
+  "cultist": {
+    "dexterity": "1",
+    "name": "Cultist"
+  },
+  "druid": {
+    "dexterity": "1",
+    "name": "Druid"
+  },
+  "gladiator": {
+    "dexterity": "2",
+    "name": "Gladiator"
+  },
+  "guard": {
+    "dexterity": "1",
+    "name": "Guard"
+  },
+  "knight": {
+    "dexterity": "0",
+    "name": "Knight"
+  },
+  "mage": {
+    "dexterity": "2",
+    "name": "Mage"
+  },
+  "noble": {
+    "dexterity": "1",
+    "name": "Noble"
+  },
+  "priest": {
+    "dexterity": "0",
+    "name": "Priest"
+  },
+  "scout": {
+    "dexterity": "2",
+    "name": "Scout"
+  },
+  "spy": {
+    "dexterity": "2",
+    "name": "Spy"
+  },
+  "thug": {
+    "dexterity": "0",
+    "name": "Thug"
+  },
+  "tribal_warrior": {
+    "dexterity": "0",
+    "name": "Tribal Warrior"
+  },
+  "veteran": {
+    "dexterity": "1",
+    "name": "Veteran"
+  }
+}

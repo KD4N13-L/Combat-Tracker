@@ -1,0 +1,44 @@
+{
+  "lamia": {
+    "dexterity": "1",
+    "name": "Lamia"
+  },
+  "lich": {
+    "dexterity": "3",
+    "name": "Lich"
+  },
+  "lizardfolk": {
+    "dexterity": "0",
+    "king_queen": {
+      "dexterity": "1",
+      "name": "Lizard King/Queen"
+    },
+    "name": "Lizardfolk",
+    "shaman": {
+      "dexterity": "0",
+      "name": "Lizardfolk Shaman"
+    }
+  },
+  "lycanthrope": {
+    "werebear": {
+      "dexterity": "0",
+      "name": "Werebear"
+    },
+    "wereboar": {
+      "dexterity": "0",
+      "name": "Wereboar"
+    },
+    "wererat": {
+      "dexterity": "0",
+      "name": "Wererat"
+    },
+    "weretiger": {
+      "dexterity": "0",
+      "name": "Weretiger"
+    },
+    "werewolf": {
+      "dexterity": "0",
+      "name": "Werewolf"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "magmin": {
+    "dexterity": "2",
+    "name": "Magmin"
+  },
+  "manticore": {
+    "dexterity": "3",
+    "name": "Manticore"
+  },
+  "medusa": {
+    "dexterity": "2",
+    "name": "Medusa"
+  },
+  "mephit": {
+    "dust": {
+      "dexterity": "2",
+      "name": "Dust Mephit"
+    },
+    "ice": {
+      "dexterity": "1",
+      "name": "Ice Mephit"
+    },
+    "magma": {
+      "dexterity": "1",
+      "name": "Magma Mephit"
+    },
+    "mud": {
+      "dexterity": "1",
+      "name": "Mud Mephit"
+    },
+    "smoke": {
+      "dexterity": "2",
+      "name": "Smoke Mephit"
+    },
+    "steam": {
+      "dexterity": "0",
+      "name": "Steam Mephit"
+    }
+  },
+  "merfolk": {
+    "dexterity": "1",
+    "name": "Merfolk"
+  },
+  "merrow": {
+    "dexterity": "0",
+    "name": "Merrow"
+  },
+  "mimic": {
+    "dexterity": "1",
+    "name": "Mimic"
+  },
+  "mind_flayer": {
+    "dexterity": "1",
+    "name": "Mind Flayer (illithids)"
+  },
+  "minotaur": {
+    "dexterity": "0",
+    "name": "Minotaur"
+  },
+  "modrone": {
+    "duo": {
+      "dexterity": "1",
+      "name": "Duodrone"
+    },
+    "mono": {
+      "dexterity": "1",
+      "name": "Monodrone"
+    },
+    "penta": {
+      "dexterity": "2",
+      "name": "Pentadrone"
+    },
+    "quad": {
+      "dexterity": "2",
+      "name": "Quadrone"
+    },
+    "tri": {
+      "dexterity": "1",
+      "name": "Tridrone"
+    }
+  },
+  "mummy": {
+    "dexterity": "-1",
+    "lord": {
+      "dexterity": "0",
+      "name": "Mummy Lord"
+    },
+    "name": "Mummy"
+  },
+  "myconid": {
+    "adult": {
+      "dexterity": "0",
+      "name": "Myconid Adult"
+    },
+    "quaggoth_spore_servant": {
+      "dexterity": "1",
+      "name": "Quaggoth Spore Servant"
+    },
+    "sovereign": {
+      "dexterity": "0",
+      "name": "Myconid Sovereign"
+    },
+    "sprout": {
+      "dexterity": "0",
+      "name": "Myconid Sprout"
+    }
+  }
+}

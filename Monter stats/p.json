@@ -1,0 +1,26 @@
+{
+  "pegasus": {
+    "dexterity": "2",
+    "name": "Pegasus"
+  },
+  "peryton": {
+    "dexterity": "1",
+    "name": "Peryton"
+  },
+  "piercer": {
+    "dexterity": "1",
+    "name": "Piercer"
+  },
+  "pixie": {
+    "dexterity": "5",
+    "name": "Pixie"
+  },
+  "pseudodragon": {
+    "dexterity": "2",
+    "name": "Pseudodragon"
+  },
+  "purple_worm": {
+    "dexterity": "-2",
+    "name": "Purple Worm"
+  }
+}

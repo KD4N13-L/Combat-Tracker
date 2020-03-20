@@ -1,0 +1,48 @@
+{
+  "drow": {
+    "dexterity": "2",
+    "elite_warrior": {
+      "dexterity": "4",
+      "name": "Drow Elite Warrior"
+    },
+    "mage": {
+      "dexterity": "2",
+      "name": "Drow Mage"
+    },
+    "name": "Drow",
+    "priestess_of_lolth": {
+      "dexterity": "2",
+      "name": "Drow Priestess of Lolth"
+    }
+  },
+  "elemental": {
+    "air": {
+      "dexterity": "5",
+      "name": "Air Elemental"
+    },
+    "earth": {
+      "dexterity": "-1",
+      "name": "Earth Elemental"
+    },
+    "fire": {
+      "dexterity": "3",
+      "name": "Fire Elemental"
+    },
+    "water": {
+      "dexterity": "2",
+      "name": "Water Elemental"
+    }
+  },
+  "empyrean": {
+    "dexterity": "5",
+    "name": "Empyrean"
+  },
+  "ettercap": {
+    "dexterity": "2",
+    "name": "Ettercap"
+  },
+  "ettin": {
+    "dexterity": "-1",
+    "name": "Ettin"
+  }
+}

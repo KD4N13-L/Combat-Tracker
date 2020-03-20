@@ -1,0 +1,42 @@
+{
+  "yeti": {
+    "abonimable": {
+      "dexterity": "0",
+      "name": "Abominable Yeti"
+    },
+    "dexterity": "1",
+    "name": "Yeti"
+  },
+  "yuanti": {
+    "abomination": {
+      "dexterity": "3",
+      "name": "Yuan-ti Abomination"
+    },
+    "malison": {
+      "dexterity": "2",
+      "name": "Yuan-ti Malison"
+    },
+    "pureblood": {
+      "dexterity": "1",
+      "name": "Yuan-ti Pureblood"
+    }
+  },
+  "yugoloth": {
+    "arcanaloth": {
+      "dexterity": "1",
+      "name": "Arcanaloth"
+    },
+    "mezzoloth": {
+      "dexterity": "0",
+      "name": "Mezzoloth"
+    },
+    "nycaloth": {
+      "dexterity": "0",
+      "name": "Nycaloth"
+    },
+    "ultroloth": {
+      "dexterity": "3",
+      "name": "Ultroloth"
+    }
+  }
+}

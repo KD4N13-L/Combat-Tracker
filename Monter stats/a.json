@@ -1,0 +1,46 @@
+{
+  "aarakocra": {
+    "dexterity": "2",
+    "name": "Aarakocra"
+  },
+  "aboleth": {
+    "dexterity": "-1",
+    "name": "Aboleth"
+  },
+  "angel": {
+    "deva": {
+      "dexterity": "4",
+      "name": "Deva"
+    },
+    "planetar": {
+      "dexterity": "5",
+      "name": "Planetar"
+    },
+    "solar": {
+      "dexterity": "6",
+      "name": "Solar"
+    }
+  },
+  "animated": {
+    "armor": {
+      "dexterity": "0",
+      "name": "Animanted Armor"
+    },
+    "flying_sword": {
+      "dexterity": "2",
+      "name": "Flying Sword"
+    },
+    "rug_of_smothering": {
+      "dexterity": "2",
+      "name": "Rug of Smothering"
+    }
+  },
+  "ankheg": {
+    "dexterity": "0",
+    "name": "Ankheg"
+  },
+  "azer": {
+    "dexterity": "1",
+    "name": "Azer"
+  }
+}

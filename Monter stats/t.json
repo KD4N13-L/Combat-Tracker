@@ -1,0 +1,22 @@
+{
+  "tarrasque": {
+    "dexterity": "0",
+    "name": "Tarrasque"
+  },
+  "thrikreen": {
+    "dexterity": "2",
+    "name": "Thri-kreen"
+  },
+  "treant": {
+    "dexterity": "-1",
+    "name": "Treant"
+  },
+  "troglodyte": {
+    "dexterity": "0",
+    "name": "Troglodyte"
+  },
+  "troll": {
+    "dexterity": "1",
+    "name": "Troll"
+  }
+}

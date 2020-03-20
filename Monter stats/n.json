@@ -1,0 +1,24 @@
+{
+  "naga": {
+    "bone": {
+      "dexterity": "3",
+      "name": "Bone Naga"
+    },
+    "guardian": {
+      "dexterity": "4",
+      "name": "Guardian Naga"
+    },
+    "spirit": {
+      "dexterity": "3",
+      "name": "Spirit Naga"
+    }
+  },
+  "nightmare": {
+    "dexterity": "2",
+    "name": "Nightmare"
+  },
+  "nothic": {
+    "dexterity": "3",
+    "name": "Nothic"
+  }
+}

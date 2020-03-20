@@ -28,7 +28,7 @@ npc15 = {"name": "blank", "dexterity": 0, "initiative": 0}
 
 #PC INFO
 
-#Add an IF statement to check if there already exists players information as a json filel;
+#Add an IF statement to check if there already exists players information as a json file;
 #OR
 #Ask the user whether they want to import new characters or use already existing info
 #(this option may be deleted if the user is sure they will be using only one json file).

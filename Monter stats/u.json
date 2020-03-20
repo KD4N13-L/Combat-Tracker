@@ -1,0 +1,10 @@
+{
+  "umber_hulk": {
+    "dexterity": "1",
+    "name": "Umber Hulk"
+  },
+  "unicorn": {
+    "dexterity": "2",
+    "name": "Unicorn"
+  }
+}

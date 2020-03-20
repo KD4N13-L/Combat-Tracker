@@ -1,0 +1,60 @@
+{
+  "hag": {
+    "green": {
+      "dexterity": "1",
+      "name": "Green Hag"
+    },
+    "night": {
+      "dexterity": "2",
+      "name": "Night Hag"
+    },
+    "sea": {
+      "dexterity": "1",
+      "name": "Sea Hag"
+    }
+  },
+  "half_dragon_red_veteran": {
+    "dexterity": "1",
+    "name": "Half-Red Dragon Veteran"
+  },
+  "harpy": {
+    "dexterity": "1",
+    "name": "Harpy"
+  },
+  "hell_hound": {
+    "dexterity": "1",
+    "name": "Hell Hound"
+  },
+  "helmed_horror": {
+    "dexterity": "1",
+    "name": "Helmed Horror"
+  },
+  "hippogriff": {
+    "dexterity": "1",
+    "name": "Hippogriff"
+  },
+  "hobgoblin": {
+    "captain": {
+      "dexterity": "2",
+      "name": "Hobgoblin Captain"
+    },
+    "dexterity": "1",
+    "name": "Hobgoblin",
+    "warlord": {
+      "dexterity": "2",
+      "name": "Hobgoblin Warlord"
+    }
+  },
+  "homunculus": {
+    "dexterity": "2",
+    "name": "Homunculus"
+  },
+  "hook_horror": {
+    "dexterity": "0",
+    "name": "Hook Horror"
+  },
+  "hydra": {
+    "dexterity": "1",
+    "name": "Hydra"
+  }
+}

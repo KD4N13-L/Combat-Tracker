@@ -1,0 +1,26 @@
+{
+  "rakshasa": {
+    "dexterity": "3",
+    "name": "Rakshasa"
+  },
+  "remorhaz": {
+    "dexterity": "1",
+    "name": "Remorhaz"
+  },
+  "revenant": {
+    "dexterity": "2",
+    "name": "Revenant"
+  },
+  "roc": {
+    "dexterity": "0",
+    "name": "Roc"
+  },
+  "roper": {
+    "dexterity": "-1",
+    "name": "Roper"
+  },
+  "rust_monster": {
+    "dexterity": "1",
+    "name": "Rust Monster"
+  }
+}

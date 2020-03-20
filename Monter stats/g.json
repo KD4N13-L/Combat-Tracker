@@ -1,0 +1,152 @@
+{
+  "galeb_duhr": {
+    "dexterity": "2",
+    "name": "Galeb Duhr"
+  },
+  "gargoyle": {
+    "dexterity": "0",
+    "name": "Gargoyle"
+  },
+  "genie": {
+    "dao": {
+      "dexterity": "1",
+      "name": "Dao"
+    },
+    "djinni": {
+      "dexterity": "2",
+      "name": "Djinni"
+    },
+    "efreeti": {
+      "dexterity": "1",
+      "name": "Efreeti"
+    },
+    "marid": {
+      "dexterity": "1",
+      "name": "Marid"
+    }
+  },
+  "ghost": {
+    "dexterity": "1",
+    "name": "Ghost"
+  },
+  "ghoul": {
+    "dexterity": "2",
+    "name": "Ghoul"
+  },
+  "giant": {
+    "cloud": {
+      "dexterity": "0",
+      "name": "Cloud Giant"
+    },
+    "fire": {
+      "dexterity": "-1",
+      "name": "Fire Giant"
+    },
+    "frost": {
+      "dexterity": "-1",
+      "name": "Frost Giant"
+    },
+    "hill": {
+      "dexterity": "-1",
+      "name": "Hill Giant"
+    },
+    "stone": {
+      "dexterity": "2",
+      "name": "Stone Giant"
+    },
+    "storm": {
+      "dexterity": "2",
+      "name": "Storm Giant"
+    }
+  },
+  "gibbering_mouther": {
+    "dexterity": "-1",
+    "name": "Gibbering Mouther"
+  },
+  "githyanki": {
+    "knight": {
+      "dexterity": "2",
+      "name": "Githyanki Knight"
+    },
+    "warrior": {
+      "dexterity": "2",
+      "name": "Githyanki Warrior"
+    }
+  },
+  "githzerai": {
+    "monk": {
+      "dexterity": "2",
+      "name": "Githzerai Monk"
+    },
+    "zerth": {
+      "dexterity": "4",
+      "name": "Githzerai Zerth"
+    }
+  },
+  "gnoll": {
+    "dexterity": "1",
+    "fang_of_yeenoghu": {
+      "dexterity": "2",
+      "name": "Gnoll Fang of Yeenoghu"
+    },
+    "name": "Gnoll",
+    "pack_lord": {
+      "dexterity": "2",
+      "name": "Gnoll Pack Lord"
+    }
+  },
+  "gnome_deep_svirfneblin": {
+    "dexterity": "2",
+    "name": "Deep Gnome (Svirfneblin)"
+  },
+  "goblin": {
+    "boss": {
+      "dexterity": "2",
+      "name": "Goblin Boss"
+    },
+    "dexterity": "2",
+    "name": "Goblin"
+  },
+  "golem": {
+    "clay": {
+      "dexterity": "-1",
+      "name": "Clay Golem"
+    },
+    "flesh": {
+      "dexterity": "-1",
+      "name": "Flesh Golem"
+    },
+    "iron": {
+      "dexterity": "-1",
+      "name": "Iron Golem"
+    },
+    "stone": {
+      "dexterity": "-1",
+      "name": "Stone Golem"
+    }
+  },
+  "gorgon": {
+    "dexterity": "0",
+    "name": "Gorgon"
+  },
+  "grell": {
+    "dexterity": "2",
+    "name": "Grell"
+  },
+  "grick": {
+    "alpha": {
+      "dexterity": "3",
+      "name": "Grick Alpha"
+    },
+    "dexterity": "2",
+    "name": "Grick"
+  },
+  "griffon": {
+    "dexterity": "2",
+    "name": "Griffon"
+  },
+  "grimlock": {
+    "dexterity": "1",
+    "name": "Grimlock"
+  }
+}

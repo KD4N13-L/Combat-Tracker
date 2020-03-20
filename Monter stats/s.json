@@ -1,0 +1,102 @@
+{
+  "sahuagin": {
+    "baron": {
+      "dexterity": "2",
+      "name": "Sahuagin Baron"
+    },
+    "dexterity": "0",
+    "name": "Sahuagin",
+    "priestess": {
+      "dexterity": "0",
+      "name": "Sahuagin Priestess"
+    }
+  },
+  "salamander": {
+    "dexterity": "2",
+    "name": "Salamander"
+  },
+  "satyr": {
+    "dexterity": "3",
+    "name": "Satyr"
+  },
+  "scarecrow": {
+    "dexterity": "1",
+    "name": "Scarecrow"
+  },
+  "shadow": {
+    "dexterity": "2",
+    "name": "Shadow"
+  },
+  "shambling_mound": {
+    "dexterity": "-1",
+    "name": "Shambling Mound"
+  },
+  "shield_guardian": {
+    "dexterity": "-1",
+    "name": "Shield Guardian"
+  },
+  "skeleton": {
+    "dexterity": "2",
+    "minotaur": {
+      "dexterity": "0",
+      "name": "Minotaur Skeleton"
+    },
+    "name": "Skeleton",
+    "warhorse": {
+      "dexterity": "1",
+      "name": "Warhorse Skeleton"
+    }
+  },
+  "slaad": {
+    "blue": {
+      "dexterity": "2",
+      "name": "Blue Slaad"
+    },
+    "death": {
+      "dexterity": "2",
+      "name": "Death Slaad"
+    },
+    "gray": {
+      "dexterity": "3",
+      "name": "Gray Slaad"
+    },
+    "green": {
+      "dexterity": "2",
+      "name": "Green Slaad"
+    },
+    "red": {
+      "dexterity": "1",
+      "name": "Red Slaad"
+    },
+    "tadpole": {
+      "dexterity": "2",
+      "name": "Slaad Tadpole"
+    }
+  },
+  "specter": {
+    "dexterity": "2",
+    "name": "Specter"
+  },
+  "sphinx": {
+    "andro": {
+      "dexterity": "0",
+      "name": "Androsphinx"
+    },
+    "gyno": {
+      "dexterity": "2",
+      "name": "Gynosphinx"
+    }
+  },
+  "sprite": {
+    "dexterity": "4",
+    "name": "sprite"
+  },
+  "stirge": {
+    "dexterity": "3",
+    "name": "Stirge"
+  },
+  "succubus_incubus": {
+    "dexterity": "3",
+    "name": "Succubus/Incubus"
+  }
+}

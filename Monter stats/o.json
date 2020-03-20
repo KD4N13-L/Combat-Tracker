@@ -1,0 +1,56 @@
+{
+  "ogre": {
+    "dexterity": "-1",
+    "half": {
+      "dexterity": "0",
+      "name": "Half-Ogre (Ogrillon)"
+    },
+    "name": "Ogre"
+  },
+  "oni": {
+    "dexterity": "0",
+    "name": "Oni"
+  },
+  "ooze": {
+    "black_pudding": {
+      "dexterity": "-3",
+      "name": "Black Pudding"
+    },
+    "gelationous_cube": {
+      "dexterity": "-4",
+      "name": "Gelatinous Cube"
+    },
+    "gray": {
+      "dexterity": "-2",
+      "name": "Gray Ooze"
+    },
+    "ochre_jelly": {
+      "dexterity": "-2",
+      "name": "Ochre Jelly"
+    }
+  },
+  "orc": {
+    "dexterity": "1",
+    "eye_of_gruumsh": {
+      "dexterity": "1",
+      "name": "Orc Eye of Gruumsh"
+    },
+    "name": "Orc",
+    "orog": {
+      "dexterity": "1",
+      "name": "Orog"
+    },
+    "war_chief": {
+      "dexterity": "1",
+      "name": "Orc War Chief"
+    }
+  },
+  "otyugh": {
+    "dexterity": "0",
+    "name": "Otyugh"
+  },
+  "owlbear": {
+    "dexterity": "1",
+    "name": "Owlbear"
+  }
+}

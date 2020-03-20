@@ -1,0 +1,42 @@
+{
+  "cambion": {
+    "dexterity": "4",
+    "name": "Cambion"
+  },
+  "carrion_crawler": {
+    "dexterity": "1",
+    "name": "Carrion Crawler"
+  },
+  "centaur": {
+    "dexterity": "2",
+    "name": "Centaur"
+  },
+  "chimera": {
+    "dexterity": "0",
+    "name": "Chimera"
+  },
+  "chuul": {
+    "dexterity": "0",
+    "name": "Chuul"
+  },
+  "cloaker": {
+    "dexterity": "2",
+    "name": "Cloaker"
+  },
+  "cockatrice": {
+    "dexterity": "1",
+    "name": "Cockatrice"
+  },
+  "couatl": {
+    "dexterity": "5",
+    "name": "Couatl"
+  },
+  "crawling_claw": {
+    "dexterity": "2",
+    "name": "Crawling Claw"
+  },
+  "cyclops": {
+    "dexterity": "0",
+    "name": "Cyclops"
+  }
+}

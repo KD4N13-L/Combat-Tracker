@@ -1,0 +1,32 @@
+{
+  "faerie_dragon": {
+    "dexterity": "20",
+    "name": "Faerie Dragon"
+  },
+  "flameskull": {
+    "dexterity": "3",
+    "name": "Flameskull"
+  },
+  "flumph": {
+    "dexterity": "2",
+    "name": "Flumph"
+  },
+  "fomorian": {
+    "dexterity": "0",
+    "name": "Fomorian"
+  },
+  "fungi": {
+    "gas_spore": {
+      "dexterity": "-5",
+      "name": "Gas Spore"
+    },
+    "shrieker": {
+      "dexterity": "-5",
+      "name": "Shrieker"
+    },
+    "violet_fungus": {
+      "dexterity": "-5",
+      "name": "Violet Fungus"
+    }
+  }
+}

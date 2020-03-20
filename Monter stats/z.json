@@ -1,0 +1,14 @@
+{
+  "zombie": {
+    "beholder": {
+      "dexterity": "-1",
+      "name": "Beholder Zombie"
+    },
+    "dexterity": "-2",
+    "name": "Zombie",
+    "ogre": {
+      "dexterity": "-2",
+      "name": "Ogre Zombie"
+    }
+  }
+}

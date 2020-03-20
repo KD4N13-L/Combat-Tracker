@@ -1,0 +1,56 @@
+{
+  "banshee": {
+    "dexterity": "2",
+    "name": "Banshee"
+  },
+  "basilisk": {
+    "dexterity": "-1",
+    "name": "Basilisk"
+  },
+  "behir": {
+    "dexterity": "3",
+    "name": "Behir"
+  },
+  "beholder": {
+    "death_tyrant": {
+      "dexterity": "2",
+      "name": "Death Tyrant"
+    },
+    "dexterity": "2",
+    "name": "Beholder",
+    "spectator": {
+      "dexterity": "2",
+      "name": "Spectator"
+    }
+  },
+  "blight": {
+    "needle": {
+      "dexterity": "1",
+      "name": "Needle Blight"
+    },
+    "twig": {
+      "dexterity": "1",
+      "name": "Twig Blight"
+    },
+    "vine": {
+      "dexterity": "-1",
+      "name": "Vine Blight"
+    }
+  },
+  "bugbear": {
+    "chief": {
+      "dexterity": "2",
+      "name": "Bugbear Chief"
+    },
+    "dexterity": "2",
+    "name": "Bugbear"
+  },
+  "bullete": {
+    "dexterity": "0",
+    "name": "Bullete"
+  },
+  "bullywug": {
+    "dexterity": "1",
+    "name": "Bullywug"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "water_weird": {
+    "dexterity": "3",
+    "name": "R"
+  },
+  "wight": {
+    "dexterity": "2",
+    "name": "Wight"
+  },
+  "will_o_wisp": {
+    "dexterity": "9",
+    "name": "Will-o'-Wisp"
+  },
+  "wraith": {
+    "dexterity": "3",
+    "name": "Wraith"
+  },
+  "wyvern": {
+    "dexterity": "0",
+    "name": "Wyvern"
+  }
+}

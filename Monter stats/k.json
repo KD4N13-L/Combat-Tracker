@@ -1,0 +1,30 @@
+{
+  "kenku": {
+    "dexterity": "3",
+    "name": "kenku"
+  },
+  "kobold": {
+    "dexterity": "2",
+    "name": "Kobold",
+    "winged": {
+      "dexterity": "3",
+      "name": "Winged Kobold"
+    }
+  },
+  "kraken": {
+    "dexterity": "0",
+    "name": "Kraken"
+  },
+  "kuotoa": {
+    "archpriest": {
+      "dexterity": "2",
+      "name": "Kuo-toa Archpriest"
+    },
+    "dexterity": "0",
+    "name": "Kuo-toa",
+    "whip": {
+      "dexterity": "0",
+      "name": "Kuo-toa Whip"
+    }
+  }
+}
