@@ -7,7 +7,7 @@ personal_budget ["date"] = "26.02.2020"
 with open("personal_budget.json") as data_file:
     personal_budget_saved = json.load(data_file)
 
-print("You have old data"personal_budget_saved)
+print("You have old data", personal_budget_saved)
 reuse = input("DO you want to use the data? Please answer Yes or No ")
 if reuse == "Yes":
     personal_budget["wallet"] = personal_budget_saved["wallet"]
