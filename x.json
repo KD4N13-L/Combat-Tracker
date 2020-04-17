@@ -1,5 +1,6 @@
 {
-  "name": "John",
-  "age": 30,
-  "city": "New York"
+  "xorn": {
+    "dexterity": "0",
+    "name": "Xorn"
+  }
 }

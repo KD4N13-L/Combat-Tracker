@@ -1,5 +1,4 @@
-import json
-from Monster_stats.initiative_functions import *
+from initiative_functions import *
 
 
 def main():

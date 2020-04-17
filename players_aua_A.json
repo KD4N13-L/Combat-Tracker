@@ -1,0 +1,38 @@
+{
+  "amount": 7,
+  "player1": {
+    "name": "Ollaf",
+    "initiative": 10,
+    "dexterity": 2
+  },
+  "player2": {
+    "name": "Saari",
+    "initiative": 10,
+    "dexterity": 3
+  },
+  "player3": {
+    "name": "Zard",
+    "initiative": 10,
+    "dexterity": 3
+  },
+  "player4": {
+    "name": "Dzis69",
+    "initiative": 10,
+    "dexterity": 2
+  },
+  "player5": {
+    "name": "Azmerick",
+    "initiative": 10,
+    "dexterity": 0
+  },
+  "player6": {
+    "name": "Lev'anthia",
+    "initiative": 10,
+    "dexterity": 4
+  },
+  "player7": {
+    "name": "Meg (Noele Megan)",
+    "initiative": 10,
+    "dexterity": 2
+  }
+}

@@ -596,59 +596,59 @@ npcs["thug"] = {"name": "Thug", "dexterity": "0"}
 npcs["tribal_warrior"] = {"name": "Tribal Warrior", "dexterity": "0"}
 npcs["veteran"] = {"name": "Veteran", "dexterity": "1"}
 
-with open("Monster_stats/a.json", "w") as file:
+with open("a.json", "w") as file:
     json.dump(a, file, sort_keys=True, indent=2)
-with open("Monster_stats/b.json", "w") as file:
+with open("b.json", "w") as file:
     json.dump(b, file, sort_keys=True, indent=2)
-with open("Monster_stats/c.json", "w") as file:
+with open("c.json", "w") as file:
     json.dump(c, file, sort_keys=True, indent=2)
-with open("Monster_stats/d.json", "w") as file:
+with open("d.json", "w") as file:
     json.dump(d, file, sort_keys=True, indent=2)
-with open("Monster_stats/e.json", "w") as file:
+with open("e.json", "w") as file:
     json.dump(e, file, sort_keys=True, indent=2)
-with open("Monster_stats/f.json", "w") as file:
+with open("f.json", "w") as file:
     json.dump(f, file, sort_keys=True, indent=2)
-with open("Monster_stats/g.json", "w") as file:
+with open("g.json", "w") as file:
     json.dump(g, file, sort_keys=True, indent=2)
-with open("Monster_stats/h.json", "w") as file:
+with open("h.json", "w") as file:
     json.dump(h, file, sort_keys=True, indent=2)
-with open("Monster_stats/i.json", "w") as file:
+with open("i.json", "w") as file:
     json.dump(i, file, sort_keys=True, indent=2)
-with open("Monster_stats/j.json", "w") as file:
+with open("j.json", "w") as file:
     json.dump(j, file, sort_keys=True, indent=2)
-with open("Monster_stats/k.json", "w") as file:
+with open("k.json", "w") as file:
     json.dump(k, file, sort_keys=True, indent=2)
-with open("Monster_stats/l.json", "w") as file:
+with open("l.json", "w") as file:
     json.dump(l, file, sort_keys=True, indent=2)
-with open("Monster_stats/m.json", "w") as file:
+with open("m.json", "w") as file:
     json.dump(m, file, sort_keys=True, indent=2)
-with open("Monster_stats/n.json", "w") as file:
+with open("n.json", "w") as file:
     json.dump(n, file, sort_keys=True, indent=2)
-with open("Monster_stats/o.json", "w") as file:
+with open("o.json", "w") as file:
     json.dump(o, file, sort_keys=True, indent=2)
-with open("Monster_stats/p.json", "w") as file:
+with open("p.json", "w") as file:
     json.dump(p, file, sort_keys=True, indent=2)
-with open("Monster_stats/q.json", "w") as file:
+with open("q.json", "w") as file:
     json.dump(q, file, sort_keys=True, indent=2)
-with open("Monster_stats/r.json", "w") as file:
+with open("r.json", "w") as file:
     json.dump(r, file, sort_keys=True, indent=2)
-with open("Monster_stats/s.json", "w") as file:
+with open("s.json", "w") as file:
     json.dump(s, file, sort_keys=True, indent=2)
-with open("Monster_stats/t.json", "w") as file:
+with open("t.json", "w") as file:
     json.dump(t, file, sort_keys=True, indent=2)
-with open("Monster_stats/u.json", "w") as file:
+with open("u.json", "w") as file:
     json.dump(u, file, sort_keys=True, indent=2)
-with open("Monster_stats/v.json", "w") as file:
+with open("v.json", "w") as file:
     json.dump(v, file, sort_keys=True, indent=2)
-with open("Monster_stats/w.json", "w") as file:
+with open("w.json", "w") as file:
     json.dump(w, file, sort_keys=True, indent=2)
-with open("Monster_stats/x.json", "w") as file:
+with open("x.json", "w") as file:
     json.dump(x, file, sort_keys=True, indent=2)
-with open("Monster_stats/y.json", "w") as file:
+with open("y.json", "w") as file:
     json.dump(y, file, sort_keys=True, indent=2)
-with open("Monster_stats/z.json", "w") as file:
+with open("z.json", "w") as file:
     json.dump(z, file, sort_keys=True, indent=2)
-with open("Monster_stats/misc_creatures.json", "w") as file:
+with open("misc_creatures.json", "w") as file:
     json.dump(misc_creatures, file, sort_keys=True, indent=2)
-with open("Monster_stats/npcs.json", "w") as file:
+with open("npcs.json", "w") as file:
     json.dump(npcs, file, sort_keys=True, indent=2)

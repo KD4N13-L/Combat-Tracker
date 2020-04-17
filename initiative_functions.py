@@ -12,7 +12,6 @@ def npc_import():
         while 'name' not in dictionary.keys():
             hier = input("Input the creature's name. ---- ")
             dictionary = dictionary['' + hier + '']
-            dictionary_dig(dictionary)
         npcs_export = {}
         update(npcs_export, dictionary)
         return npcs_export
@@ -42,6 +41,19 @@ def npc_import():
 
 
 def pc_import():
+    def pc_file_import():
+        dictionary_name = input("What is the name of the Players File? ---- ")
+        with open('' + dictionary_name + '.json') as data_file:
+            dictionary = json.load(data_file)
+        i_pc = 1
+        updated_dictionary = {}
+        while i_pc <= int(dictionary["amount"]):
+            value_pc = 'player%d' % i_pc
+            print(dictionary['' + value_pc + '']["name"])
+            updated_dictionary.update({dictionary['' + value_pc + '']["name"]: int(input("Initiative Score: "))})
+            i_pc += 1
+        return updated_dictionary
+
     def pc_file_create():
         i_pc = 1
         dictionary_file_name = input("What would you like to name the new players file? ---- ")
@@ -52,16 +64,14 @@ def pc_import():
             player[value_pc] = {"name": "blank", "initiative": 0, "dexterity": 0}
             print("Input information of PC", i_pc)
             player[value_pc].update({"name": input("Name: ")})
-            player[value_pc].update({"initiative": int(input("Initiative Score: "))})
+            player[value_pc].update({"initiative": 10})
             player[value_pc].update({"dexterity": int(input("Dexterity Modifier: "))})
             dictionary_destination.update({value_pc: player[value_pc]})
             i_pc += 1
         with open('' + dictionary_file_name + '.json', "w") as file:
             json.dump(dictionary_destination, file, indent=2)
-        return dictionary_destination
 
-    def pc_file_import():
-        dictionary_name = input("What is the name of the Players File? ---- ")
+        dictionary_name = dictionary_file_name
         with open('' + dictionary_name + '.json') as data_file:
             dictionary = json.load(data_file)
         i_pc = 1
