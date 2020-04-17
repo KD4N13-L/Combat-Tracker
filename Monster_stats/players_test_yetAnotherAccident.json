@@ -1,0 +1,8 @@
+{
+  "amount": 1,
+  "player1": {
+    "name": "ABC",
+    "initiative": "12",
+    "dexterity": "3"
+  }
+}

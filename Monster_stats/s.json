@@ -4,16 +4,24 @@
       "dexterity": "2",
       "name": "Sahuagin Baron"
     },
-    "dexterity": "0",
-    "name": "Sahuagin",
     "priestess": {
       "dexterity": "0",
       "name": "Sahuagin Priestess"
+    },
+    "regular": {
+      "dexterity": "0",
+      "name": "Sahuagin"
     }
   },
   "salamander": {
-    "dexterity": "2",
-    "name": "Salamander"
+    "fire_snake": {
+      "dexterity": "2",
+      "name": "Fire Snake"
+    },
+    "regular": {
+      "dexterity": "2",
+      "name": "Salamander"
+    }
   },
   "satyr": {
     "dexterity": "3",
@@ -36,12 +44,14 @@
     "name": "Shield Guardian"
   },
   "skeleton": {
-    "dexterity": "2",
     "minotaur": {
       "dexterity": "0",
       "name": "Minotaur Skeleton"
     },
-    "name": "Skeleton",
+    "regular": {
+      "dexterity": "2",
+      "name": "Skeleton"
+    },
     "warhorse": {
       "dexterity": "1",
       "name": "Warhorse Skeleton"

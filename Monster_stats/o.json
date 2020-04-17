@@ -1,11 +1,13 @@
 {
   "ogre": {
-    "dexterity": "-1",
     "half": {
       "dexterity": "0",
       "name": "Half-Ogre (Ogrillon)"
     },
-    "name": "Ogre"
+    "regular": {
+      "dexterity": "-1",
+      "name": "Ogre"
+    }
   },
   "oni": {
     "dexterity": "0",
@@ -30,15 +32,17 @@
     }
   },
   "orc": {
-    "dexterity": "1",
     "eye_of_gruumsh": {
       "dexterity": "1",
       "name": "Orc Eye of Gruumsh"
     },
-    "name": "Orc",
     "orog": {
       "dexterity": "1",
       "name": "Orog"
+    },
+    "regular": {
+      "dexterity": "1",
+      "name": "Orc"
     },
     "war_chief": {
       "dexterity": "1",

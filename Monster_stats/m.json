@@ -80,12 +80,14 @@
     }
   },
   "mummy": {
-    "dexterity": "-1",
     "lord": {
       "dexterity": "0",
       "name": "Mummy Lord"
     },
-    "name": "Mummy"
+    "regular": {
+      "dexterity": "-1",
+      "name": "Mummy"
+    }
   },
   "myconid": {
     "adult": {

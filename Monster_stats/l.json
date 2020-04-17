@@ -8,12 +8,14 @@
     "name": "Lich"
   },
   "lizardfolk": {
-    "dexterity": "0",
     "king_queen": {
       "dexterity": "1",
       "name": "Lizard King/Queen"
     },
-    "name": "Lizardfolk",
+    "regular": {
+      "dexterity": "0",
+      "name": "Lizardfolk"
+    },
     "shaman": {
       "dexterity": "0",
       "name": "Lizardfolk Shaman"

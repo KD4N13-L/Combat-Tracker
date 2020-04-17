@@ -4,8 +4,10 @@
       "dexterity": "0",
       "name": "Abominable Yeti"
     },
-    "dexterity": "1",
-    "name": "Yeti"
+    "regular": {
+      "dexterity": "1",
+      "name": "Yeti"
+    }
   },
   "yuanti": {
     "abomination": {

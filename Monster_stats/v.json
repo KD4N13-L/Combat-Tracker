@@ -1,7 +1,9 @@
 {
   "vampire": {
-    "dexterity": "4",
-    "name": "Vampire",
+    "regular": {
+      "dexterity": "4",
+      "name": "Vampire"
+    },
     "spawn": {
       "dexterity": "3",
       "name": "Vampire Spawn"

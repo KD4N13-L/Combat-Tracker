@@ -4,8 +4,10 @@
     "name": "kenku"
   },
   "kobold": {
-    "dexterity": "2",
-    "name": "Kobold",
+    "regular": {
+      "dexterity": "2",
+      "name": "Kobold"
+    },
     "winged": {
       "dexterity": "3",
       "name": "Winged Kobold"
@@ -20,8 +22,10 @@
       "dexterity": "2",
       "name": "Kuo-toa Archpriest"
     },
-    "dexterity": "0",
-    "name": "Kuo-toa",
+    "regular": {
+      "dexterity": "0",
+      "name": "Kuo-toa"
+    },
     "whip": {
       "dexterity": "0",
       "name": "Kuo-toa Whip"

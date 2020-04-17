@@ -16,8 +16,10 @@
       "dexterity": "2",
       "name": "Death Tyrant"
     },
-    "dexterity": "2",
-    "name": "Beholder",
+    "regular": {
+      "dexterity": "2",
+      "name": "Beholder"
+    },
     "spectator": {
       "dexterity": "2",
       "name": "Spectator"
@@ -42,8 +44,10 @@
       "dexterity": "2",
       "name": "Bugbear Chief"
     },
-    "dexterity": "2",
-    "name": "Bugbear"
+    "regular": {
+      "dexterity": "2",
+      "name": "Bugbear"
+    }
   },
   "bullete": {
     "dexterity": "0",

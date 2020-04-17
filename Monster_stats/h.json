@@ -38,8 +38,10 @@
       "dexterity": "2",
       "name": "Hobgoblin Captain"
     },
-    "dexterity": "1",
-    "name": "Hobgoblin",
+    "regular": {
+      "dexterity": "1",
+      "name": "Hobgoblin"
+    },
     "warlord": {
       "dexterity": "2",
       "name": "Hobgoblin Warlord"

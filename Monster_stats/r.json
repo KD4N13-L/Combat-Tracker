@@ -4,8 +4,14 @@
     "name": "Rakshasa"
   },
   "remorhaz": {
-    "dexterity": "1",
-    "name": "Remorhaz"
+    "regular": {
+      "dexterity": "1",
+      "name": "Remorhaz"
+    },
+    "young": {
+      "dexterity": "1",
+      "name": "Young Remorhaz"
+    }
   },
   "revenant": {
     "dexterity": "2",

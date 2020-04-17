@@ -1,0 +1,13 @@
+{
+  "amount": 2,
+  "player1": {
+    "name": "Graham",
+    "initiative": "12",
+    "dexterity": "1"
+  },
+  "player2": {
+    "name": "Jane",
+    "initiative": "15",
+    "dexterity": "3"
+  }
+}
