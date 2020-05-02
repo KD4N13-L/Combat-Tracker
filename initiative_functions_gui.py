@@ -1,6 +1,8 @@
 import json
 from random import randint
 from random import seed
+import tkinter as tk
+from tkinter import *
 
 
 def npc_import():
@@ -17,15 +19,40 @@ def npc_import():
         return npcs_export
 
     seed(randint(1, 100))
-    while True:
-        npc_amount = input("How many NPCs are participating (0 to 15)? ---- ")
+
+    npc = tk.Tk()
+    npc.title("NPC Import")
+    npc_amount = ""
+    t = True
+    while t == True:
+
+        def end_process():
+            npc.destroy()
+            t = False
+
+        button = tk.Button(npc, text="Stop", command=end_process)
+        button.grid(column=0, row=20)
+        label1 = Label(npc, text="Amount of NPCs (0-15)").grid(row=0)
+        npc_amount = tk.IntVar()
+        npc_amount_entry = tk.Entry(npc, textvariable=npc_amount)
+        npc_amount_entry.grid(row=0, column=1)
+        npc_amount.get()
+
+        #        def entry_get(event):
+        #            key = event.char
+        #            if key == '\r':
+        #                npc_amount.get()
+        #            print(npc_amount.get())
+
+        #        npc.bind('<Key>', lambda a: entry_get(a))
+
         if npc_amount == "0":
             blank_dictionary = {}
             return blank_dictionary
         else:
             for check in range(0, 15):
                 if npc_amount == str(check):
-                    npcs = int(npc_amount) + 1
+                    npcs = npc_amount.get() + 1
                     if npcs <= 1:
                         pass
                     else:
@@ -37,7 +64,9 @@ def npc_import():
                             final_npc_dictionary.update(dictionary_dig(data))
                         return final_npc_dictionary
                     break
-            print("Please insert a NON-negative INTEGER from 0 to 15")
+            print("Please insert a NON-negative INTEGER")
+    npc.destroy()
+    npc.mainloop()
 
 
 def pc_import():
@@ -95,6 +124,8 @@ def pc_import():
 def initiative_display(dictionary):
     with open("initiative.json", "w") as file:
         json.dump(dictionary, file, sort_keys=True, indent=2)
+    #    with open('' + dictionary + '.json', 'r') as file:
+    #        initiative = json.load(file, sort_keys=True, indent=2)
     for key, value in sorted(dictionary.items(), key=lambda x: x[1], reverse=True):
         print(key, value)
     a = {}

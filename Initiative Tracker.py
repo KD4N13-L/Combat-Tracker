@@ -9,5 +9,4 @@ def main():
     initiative.update(pcs)
     initiative_display(initiative)
 
-
 main()
