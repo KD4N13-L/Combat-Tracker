@@ -1,5 +1,6 @@
 import json
 
+# Monster Manual
 a = {}
 a["angel"] = {}
 a["animated"] = {}
@@ -15,7 +16,7 @@ a["animated"]["rug_of_smothering"] = {"name": "Rug of Smothering", "dexterity": 
 a["ankheg"] = {"name": "Ankheg", "dexterity": "0"}
 a["azer"] = {"name": "Azer", "dexterity": "1"}
 
-b={}
+b = {}
 b["beholder"] = {}
 b["blight"] = {}
 b["bugbear"] = {}
@@ -34,7 +35,7 @@ b["bugbear"]["chief"] = {"name": "Bugbear Chief", "dexterity": "2"}
 b["bullete"] = {"name": "Bullete", "dexterity": "0"}
 b["bullywug"] = {"name": "Bullywug", "dexterity": "1"}
 
-c={}
+c = {}
 
 c["cambion"] = {"name": "Cambion", "dexterity": "4"}
 c["carrion_crawler"] = {"name": "Carrion Crawler", "dexterity": "1"}
@@ -47,7 +48,7 @@ c["couatl"] = {"name": "Couatl", "dexterity": "5"}
 c["crawling_claw"] = {"name": "Crawling Claw", "dexterity": "2"}
 c["cyclops"] = {"name": "Cyclops", "dexterity": "0"}
 
-d={}
+d = {}
 d["demon"] = {}
 d["devil"] = {}
 d["dinosaur"] = {}
@@ -148,9 +149,9 @@ d["drider"] = {"name": "Drider", "dexterity": "3"}
 d["dryad"] = {"name": "Dryad", "dexterity": "1"}
 d["duergar"] = {"name": "Duergar", "dexterity": "0"}
 
-e={}
-e["elemental"]={}
-e["drow"]={}
+e = {}
+e["elemental"] = {}
+e["drow"] = {}
 
 e["elemental"]["air"] = {"name": "Air Elemental", "dexterity": "5"}
 e["elemental"]["earth"] = {"name": "Earth Elemental", "dexterity": "-1"}
@@ -164,8 +165,8 @@ e["empyrean"] = {"name": "Empyrean", "dexterity": "5"}
 e["ettercap"] = {"name": "Ettercap", "dexterity": "2"}
 e["ettin"] = {"name": "Ettin", "dexterity": "-1"}
 
-f={}
-f["fungi"]={}
+f = {}
+f["fungi"] = {}
 
 f["faerie_dragon"] = {"name": "Faerie Dragon", "dexterity": "20"}
 f["flameskull"] = {"name": "Flameskull", "dexterity": "3"}
@@ -175,16 +176,16 @@ f["fungi"]["gas_spore"] = {"name": "Gas Spore", "dexterity": "-5"}
 f["fungi"]["shrieker"] = {"name": "Shrieker", "dexterity": "-5"}
 f["fungi"]["violet_fungus"] = {"name": "Violet Fungus", "dexterity": "-5"}
 
-g={}
-g["genie"]={}
-g["ghoul"]={}
-g["giant"]={}
-g["githyanki"]={}
-g["githzerai"]={}
-g["gnoll"]={}
-g["goblin"]={}
-g["golem"]={}
-g["grick"]={}
+g = {}
+g["genie"] = {}
+g["ghoul"] = {}
+g["giant"] = {}
+g["githyanki"] = {}
+g["githzerai"] = {}
+g["gnoll"] = {}
+g["goblin"] = {}
+g["golem"] = {}
+g["grick"] = {}
 
 g["galeb_duhr"] = {"name": "Galeb Duhr", "dexterity": "2"}
 g["gargoyle"] = {"name": "Gargoyle", "dexterity": "0"}
@@ -223,9 +224,9 @@ g["grick"]["alpha"] = {"name": "Grick Alpha", "dexterity": "3"}
 g["griffon"] = {"name": "Griffon", "dexterity": "2"}
 g["grimlock"] = {"name": "Grimlock", "dexterity": "1"}
 
-h={}
-h["hag"]={}
-h["hobgoblin"]={}
+h = {}
+h["hag"] = {}
+h["hobgoblin"] = {}
 
 h["hag"]["green"] = {"name": "Green Hag", "dexterity": "1"}
 h["hag"]["night"] = {"name": "Night Hag", "dexterity": "2"}
@@ -242,18 +243,18 @@ h["homunculus"] = {"name": "Homunculus", "dexterity": "2"}
 h["hook_horror"] = {"name": "Hook Horror", "dexterity": "0"}
 h["hydra"] = {"name": "Hydra", "dexterity": "1"}
 
-i={}
+i = {}
 
 i["intellect_devourer"] = {"name": "Intellect Devourer", "dexterity": "2"}
 i["invisible_stalker"] = {"name": "Invisible Stalker", "dexterity": "4"}
 
-j={}
+j = {}
 
 j["jackalwere"] = {"name": "Jackalwere", "dexterity": "2"}
 
-k={}
-k["kobold"]={}
-k["kuotoa"]={}
+k = {}
+k["kobold"] = {}
+k["kuotoa"] = {}
 
 k["kenku"] = {"name": "kenku", "dexterity": "3"}
 k["kobold"]["regular"] = {"name": "Kobold", "dexterity": "2"}
@@ -263,9 +264,9 @@ k["kuotoa"]["regular"] = {"name": "Kuo-toa", "dexterity": "0"}
 k["kuotoa"]["archpriest"] = {"name": "Kuo-toa Archpriest", "dexterity": "2"}
 k["kuotoa"]["whip"] = {"name": "Kuo-toa Whip", "dexterity": "0"}
 
-l={}
-l["lizardfolk"]={}
-l["lycanthrope"]={}
+l = {}
+l["lizardfolk"] = {}
+l["lycanthrope"] = {}
 
 l["lamia"] = {"name": "Lamia", "dexterity": "1"}
 l["lich"] = {"name": "Lich", "dexterity": "3"}
@@ -278,11 +279,11 @@ l["lycanthrope"]["wererat"] = {"name": "Wererat", "dexterity": "0"}
 l["lycanthrope"]["weretiger"] = {"name": "Weretiger", "dexterity": "0"}
 l["lycanthrope"]["werewolf"] = {"name": "Werewolf", "dexterity": "0"}
 
-m={}
-m["mephit"]={}
-m["modrone"]={}
-m["mummy"]={}
-m["myconid"]={}
+m = {}
+m["mephit"] = {}
+m["modrone"] = {}
+m["mummy"] = {}
+m["myconid"] = {}
 
 m["magmin"] = {"name": "Magmin", "dexterity": "2"}
 m["manticore"] = {"name": "Manticore", "dexterity": "3"}
@@ -310,8 +311,8 @@ m["myconid"]["quaggoth_spore_servant"] = {"name": "Quaggoth Spore Servant", "dex
 m["myconid"]["adult"] = {"name": "Myconid Adult", "dexterity": "0"}
 m["myconid"]["sovereign"] = {"name": "Myconid Sovereign", "dexterity": "0"}
 
-n={}
-n["naga"]={}
+n = {}
+n["naga"] = {}
 
 n["naga"]["bone"] = {"name": "Bone Naga", "dexterity": "3"}
 n["naga"]["spirit"] = {"name": "Spirit Naga", "dexterity": "3"}
@@ -319,10 +320,10 @@ n["naga"]["guardian"] = {"name": "Guardian Naga", "dexterity": "4"}
 n["nightmare"] = {"name": "Nightmare", "dexterity": "2"}
 n["nothic"] = {"name": "Nothic", "dexterity": "3"}
 
-o={}
-o["ogre"]={}
-o["ooze"]={}
-o["orc"]={}
+o = {}
+o["ogre"] = {}
+o["ooze"] = {}
+o["orc"] = {}
 
 o["ogre"]["regular"] = {"name": "Ogre", "dexterity": "-1"}
 o["ogre"]["half"] = {"name": "Half-Ogre (Ogrillon)", "dexterity": "0"}
@@ -338,7 +339,7 @@ o["orc"]["orog"] = {"name": "Orog", "dexterity": "1"}
 o["otyugh"] = {"name": "Otyugh", "dexterity": "0"}
 o["owlbear"] = {"name": "Owlbear", "dexterity": "1"}
 
-p={}
+p = {}
 
 p["pegasus"] = {"name": "Pegasus", "dexterity": "2"}
 p["peryton"] = {"name": "Peryton", "dexterity": "1"}
@@ -347,12 +348,12 @@ p["pixie"] = {"name": "Pixie", "dexterity": "5"}
 p["pseudodragon"] = {"name": "Pseudodragon", "dexterity": "2"}
 p["purple_worm"] = {"name": "Purple Worm", "dexterity": "-2"}
 
-q={}
+q = {}
 
 q["quaggoth"] = {"name": "Quaggoth", "dexterity": "1"}
 
-r={}
-r["remorhaz"]={}
+r = {}
+r["remorhaz"] = {}
 
 r["rakshasa"] = {"name": "Rakshasa", "dexterity": "3"}
 r["remorhaz"]["young"] = {"name": "Young Remorhaz", "dexterity": "1"}
@@ -362,12 +363,12 @@ r["roc"] = {"name": "Roc", "dexterity": "0"}
 r["roper"] = {"name": "Roper", "dexterity": "-1"}
 r["rust_monster"] = {"name": "Rust Monster", "dexterity": "1"}
 
-s={}
-s["sahuagin"]={}
-s["salamander"]={}
-s["skeleton"]={}
-s["slaad"]={}
-s["sphinx"]={}
+s = {}
+s["sahuagin"] = {}
+s["salamander"] = {}
+s["skeleton"] = {}
+s["slaad"] = {}
+s["sphinx"] = {}
 
 s["sahuagin"]["regular"] = {"name": "Sahuagin", "dexterity": "0"}
 s["sahuagin"]["priestess"] = {"name": "Sahuagin Priestess", "dexterity": "0"}
@@ -395,7 +396,7 @@ s["sprite"] = {"name": "sprite", "dexterity": "4"}
 s["stirge"] = {"name": "Stirge", "dexterity": "3"}
 s["succubus_incubus"] = {"name": "Succubus/Incubus", "dexterity": "3"}
 
-t={}
+t = {}
 
 t["tarrasque"] = {"name": "Tarrasque", "dexterity": "0"}
 t["thrikreen"] = {"name": "Thri-kreen", "dexterity": "2"}
@@ -403,18 +404,18 @@ t["treant"] = {"name": "Treant", "dexterity": "-1"}
 t["troglodyte"] = {"name": "Troglodyte", "dexterity": "0"}
 t["troll"] = {"name": "Troll", "dexterity": "1"}
 
-u={}
+u = {}
 
 u["umber_hulk"] = {"name": "Umber Hulk", "dexterity": "1"}
 u["unicorn"] = {"name": "Unicorn", "dexterity": "2"}
 
-v={}
-v["vampire"]={}
+v = {}
+v["vampire"] = {}
 
 v["vampire"]["regular"] = {"name": "Vampire", "dexterity": "4"}
 v["vampire"]["spawn"] = {"name": "Vampire Spawn", "dexterity": "3"}
 
-w={}
+w = {}
 
 w["water_weird"] = {"name": "R", "dexterity": "3"}
 w["wight"] = {"name": "Wight", "dexterity": "2"}
@@ -422,14 +423,14 @@ w["will_o_wisp"] = {"name": "Will-o'-Wisp", "dexterity": "9"}
 w["wraith"] = {"name": "Wraith", "dexterity": "3"}
 w["wyvern"] = {"name": "Wyvern", "dexterity": "0"}
 
-x={}
+x = {}
 
 x["xorn"] = {"name": "Xorn", "dexterity": "0"}
 
-y={}
-y["yeti"]={}
-y["yuanti"]={}
-y["yugoloth"]={}
+y = {}
+y["yeti"] = {}
+y["yuanti"] = {}
+y["yugoloth"] = {}
 
 y["yeti"]["regular"] = {"name": "Yeti", "dexterity": "1"}
 y["yeti"]["abonimable"] = {"name": "Abominable Yeti", "dexterity": "0"}
@@ -441,42 +442,42 @@ y["yugoloth"]["mezzoloth"] = {"name": "Mezzoloth", "dexterity": "0"}
 y["yugoloth"]["nycaloth"] = {"name": "Nycaloth", "dexterity": "0"}
 y["yugoloth"]["ultroloth"] = {"name": "Ultroloth", "dexterity": "3"}
 
-z={}
-z["zombie"]={}
+z = {}
+z["zombie"] = {}
 
 z["zombie"]["regular"] = {"name": "Zombie", "dexterity": "-2"}
 z["zombie"]["ogre"] = {"name": "Ogre Zombie", "dexterity": "-2"}
 z["zombie"]["beholder"] = {"name": "Beholder Zombie", "dexterity": "-1"}
 
 misc_creatures = {}
-misc_creatures["a"]={}
-misc_creatures["b"]={}
-misc_creatures["c"]={}
-misc_creatures["d"]={}
-misc_creatures["e"]={}
-misc_creatures["f"]={}
-misc_creatures["g"]={}
-misc_creatures["g"]["giant"]={}
-misc_creatures["h"]={}
-misc_creatures["i"]={}
-misc_creatures["j"]={}
-misc_creatures["k"]={}
-misc_creatures["l"]={}
-misc_creatures["m"]={}
-misc_creatures["n"]={}
-misc_creatures["o"]={}
-misc_creatures["p"]={}
-misc_creatures["q"]={}
-misc_creatures["r"]={}
-misc_creatures["s"]={}
-misc_creatures["s"]["swarm"]={}
-misc_creatures["t"]={}
-misc_creatures["u"]={}
-misc_creatures["v"]={}
-misc_creatures["w"]={}
-misc_creatures["x"]={}
-misc_creatures["y"]={}
-misc_creatures["z"]={}
+misc_creatures["a"] = {}
+misc_creatures["b"] = {}
+misc_creatures["c"] = {}
+misc_creatures["d"] = {}
+misc_creatures["e"] = {}
+misc_creatures["f"] = {}
+misc_creatures["g"] = {}
+misc_creatures["g"]["giant"] = {}
+misc_creatures["h"] = {}
+misc_creatures["i"] = {}
+misc_creatures["j"] = {}
+misc_creatures["k"] = {}
+misc_creatures["l"] = {}
+misc_creatures["m"] = {}
+misc_creatures["n"] = {}
+misc_creatures["o"] = {}
+misc_creatures["p"] = {}
+misc_creatures["q"] = {}
+misc_creatures["r"] = {}
+misc_creatures["s"] = {}
+misc_creatures["s"]["swarm"] = {}
+misc_creatures["t"] = {}
+misc_creatures["u"] = {}
+misc_creatures["v"] = {}
+misc_creatures["w"] = {}
+misc_creatures["x"] = {}
+misc_creatures["y"] = {}
+misc_creatures["z"] = {}
 
 misc_creatures["a"]["ape"] = {"name": "Ape", "dexterity": "2"}
 misc_creatures["a"]["awakened_shrub"] = {"name": "Awakened Shrub", "dexterity": "-1"}
@@ -573,7 +574,7 @@ misc_creatures["w"]["winter_wolf"] = {"name": "Winter Wolf", "dexterity": "1"}
 misc_creatures["w"]["wolf"] = {"name": "Wolf", "dexterity": "2"}
 misc_creatures["w"]["worg"] = {"name": "Worg", "dexterity": "1"}
 
-npcs={}
+npcs = {}
 
 npcs["acolyte"] = {"name": "Acolyte", "dexterity": "0"}
 npcs["archmage"] = {"name": "Archmage", "dexterity": "2"}
@@ -595,6 +596,27 @@ npcs["spy"] = {"name": "Spy", "dexterity": "2"}
 npcs["thug"] = {"name": "Thug", "dexterity": "0"}
 npcs["tribal_warrior"] = {"name": "Tribal Warrior", "dexterity": "0"}
 npcs["veteran"] = {"name": "Veteran", "dexterity": "1"}
+
+# Lost Mine of Phandelver
+npcs["evil_mage"] = {"name": "Evil Mage", "dexterity": "2"}
+npcs["mormesk_wraith"] = {"name": "Mormesk the Wraith", "dexterity": "3"}
+npcs["nezznar"] = {"name": "Nezznar the Black Spider", "dexterity": "1"}
+npcs["redbrand"] = {"name": "Redbrand Ruffian", "dexterity": "2"}
+npcs["sildar"] = {"name": "Sildar Hallwinter", "dexterity": "0"}
+
+# Homebrew
+e["drow"]["wizard"] = {"name": "Drow Wizard", "dexterity": "2"}
+d["devil"]["hellish_minotaur"] = {"name": "Hellish MInotaur", "dexterity": "0"}
+n["neodorn"] = {"name": "Neodorn", "dexterity": "4"}
+s["sharkan"] = {}
+s["sharkan"]["flame"] = {}
+s["sharkan"]["frost"] = {}
+s["sharkan"]["storm"] = {}
+s["sharkan"]["acid"] = {}
+s["sharkan"]["flame"]["young"] = {"name": "Young Flame Sharkan", "dexterity": "1"}
+s["sphinx"]["regular"] = {"name": "Sphinx", "dexterity": "2"}
+npcs["kairon"] = {"name": "Kairon", "dexterity": "2"}
+
 
 with open("a.json", "w") as file:
     json.dump(a, file, sort_keys=True, indent=2)

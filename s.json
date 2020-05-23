@@ -39,6 +39,17 @@
     "dexterity": "-1",
     "name": "Shambling Mound"
   },
+  "sharkan": {
+    "acid": {},
+    "flame": {
+      "young": {
+        "dexterity": "1",
+        "name": "Young Flame Sharkan"
+      }
+    },
+    "frost": {},
+    "storm": {}
+  },
   "shield_guardian": {
     "dexterity": "-1",
     "name": "Shield Guardian"
@@ -95,6 +106,10 @@
     "gyno": {
       "dexterity": "2",
       "name": "Gynosphinx"
+    },
+    "regular": {
+      "dexterity": "2",
+      "name": "Sphinx"
     }
   },
   "sprite": {

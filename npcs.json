@@ -35,6 +35,10 @@
     "dexterity": "1",
     "name": "Druid"
   },
+  "evil_mage": {
+    "dexterity": "2",
+    "name": "Evil Mage"
+  },
   "gladiator": {
     "dexterity": "2",
     "name": "Gladiator"
@@ -42,6 +46,10 @@
   "guard": {
     "dexterity": "1",
     "name": "Guard"
+  },
+  "kairon": {
+    "dexterity": "2",
+    "name": "Kairon"
   },
   "knight": {
     "dexterity": "0",
@@ -51,6 +59,14 @@
     "dexterity": "2",
     "name": "Mage"
   },
+  "mormesk_wraith": {
+    "dexterity": "3",
+    "name": "Mormesk the Wraith"
+  },
+  "nezznar": {
+    "dexterity": "1",
+    "name": "Nezznar the Black Spider"
+  },
   "noble": {
     "dexterity": "1",
     "name": "Noble"
@@ -59,9 +75,17 @@
     "dexterity": "0",
     "name": "Priest"
   },
+  "redbrand": {
+    "dexterity": "2",
+    "name": "Redbrand Ruffian"
+  },
   "scout": {
     "dexterity": "2",
     "name": "Scout"
+  },
+  "sildar": {
+    "dexterity": "0",
+    "name": "Sildar Hallwinter"
   },
   "spy": {
     "dexterity": "2",

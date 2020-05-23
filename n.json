@@ -13,6 +13,10 @@
       "name": "Spirit Naga"
     }
   },
+  "neodorn": {
+    "dexterity": "4",
+    "name": "Neodorn"
+  },
   "nightmare": {
     "dexterity": "2",
     "name": "Nightmare"

@@ -90,6 +90,10 @@
       "dexterity": "3",
       "name": "Erinyes"
     },
+    "hellish_minotaur": {
+      "dexterity": "0",
+      "name": "Hellish MInotaur"
+    },
     "horned_devil": {
       "dexterity": "3",
       "name": "Horned Devil (Malebranche)"
