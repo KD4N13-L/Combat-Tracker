@@ -136,13 +136,13 @@
       "dexterity": "2",
       "name": "Pteranodon"
     },
+    "t_rex": {
+      "dexterity": "0",
+      "name": "Tyrannosaurus Rex"
+    },
     "triceratops": {
       "dexterity": "-1",
       "name": "Triceratops"
-    },
-    "tyrannosaurus_rex": {
-      "dexterity": "0",
-      "name": "Tyrannosaurus Rex"
     }
   },
   "displacer_beast": {

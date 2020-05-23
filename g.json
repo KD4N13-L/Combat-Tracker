@@ -90,7 +90,7 @@
     }
   },
   "gnoll": {
-    "fang_of_yeenoghu": {
+    "fang": {
       "dexterity": "2",
       "name": "Gnoll Fang of Yeenoghu"
     },
@@ -103,7 +103,7 @@
       "name": "Gnoll"
     }
   },
-  "gnome_deep_svirfneblin": {
+  "gnome_deep": {
     "dexterity": "2",
     "name": "Deep Gnome (Svirfneblin)"
   },

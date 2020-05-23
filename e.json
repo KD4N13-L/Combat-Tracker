@@ -1,6 +1,6 @@
 {
   "drow": {
-    "elite_warrior": {
+    "elite": {
       "dexterity": "4",
       "name": "Drow Elite Warrior"
     },
@@ -8,7 +8,7 @@
       "dexterity": "2",
       "name": "Drow Mage"
     },
-    "priestess_of_lolth": {
+    "priestess": {
       "dexterity": "2",
       "name": "Drow Priestess of Lolth"
     },
