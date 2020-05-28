@@ -1,0 +1,33 @@
+{
+  "amount": 6,
+  "player1": {
+    "name": "Mirael Evelior",
+    "initiative": 10,
+    "dexterity": 0
+  },
+  "player2": {
+    "name": "George Jameson",
+    "initiative": 10,
+    "dexterity": 0
+  },
+  "player3": {
+    "name": "Heph Tarnak",
+    "initiative": 10,
+    "dexterity": 2
+  },
+  "player4": {
+    "name": "Zane",
+    "initiative": 10,
+    "dexterity": 2
+  },
+  "player5": {
+    "name": "Aukrin",
+    "initiative": 10,
+    "dexterity": 3
+  },
+  "player6": {
+    "name": "Willem van der Veg",
+    "initiative": 10,
+    "dexterity": 2
+  }
+}
