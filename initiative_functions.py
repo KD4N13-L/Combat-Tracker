@@ -95,8 +95,9 @@ def pc_import():
 def initiative_display(dictionary):
     with open("initiative.json", "w") as file:
         json.dump(dictionary, file, sort_keys=True, indent=2)
+    print()
     for key, value in sorted(dictionary.items(), key=lambda x: x[1], reverse=True):
-        print(key, value)
+        print(value, key)
     a = {}
     with open("initiative.json", 'w') as file1:
         json.dump(a, file1, sort_keys=True, indent=2)
