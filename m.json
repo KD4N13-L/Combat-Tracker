@@ -11,6 +11,10 @@
     "dexterity": "2",
     "name": "Medusa"
   },
+  "meenlock": {
+    "dexterity": "2",
+    "name": "Meenclock"
+  },
   "mephit": {
     "dust": {
       "dexterity": "2",
@@ -50,8 +54,30 @@
     "name": "Mimic"
   },
   "mind_flayer": {
-    "dexterity": "1",
-    "name": "Mind Flayer (illithids)"
+    "alhoon": {
+      "dexterity": "1",
+      "name": "Alhoon"
+    },
+    "arcanist": {
+      "dexterity": "1",
+      "name": "Mind Flayer (Arcanist)"
+    },
+    "elder_brain": {
+      "dexterity": "0",
+      "name": "Elder Brain"
+    },
+    "mindwitness": {
+      "dexterity": "2",
+      "name": "Ulitharid"
+    },
+    "regular": {
+      "dexterity": "1",
+      "name": "Mind Flayer"
+    },
+    "ulitharid": {
+      "dexterity": "1",
+      "name": "Ulitharid"
+    }
   },
   "minotaur": {
     "dexterity": "0",
@@ -78,6 +104,10 @@
       "dexterity": "1",
       "name": "Tridrone"
     }
+  },
+  "morkoth": {
+    "dexterity": "2",
+    "name": "Morkoth"
   },
   "mummy": {
     "lord": {

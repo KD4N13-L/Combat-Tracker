@@ -3,15 +3,35 @@
     "dexterity": "3",
     "name": "kenku"
   },
+  "ki_rin": {
+    "dexterity": "3",
+    "name": "Ki-rin"
+  },
   "kobold": {
+    "dragonshield": {
+      "dexterity": "2",
+      "name": "Kobold Dragonshield"
+    },
+    "inventor": {
+      "dexterity": "2",
+      "name": "Kobold Inventor"
+    },
     "regular": {
       "dexterity": "2",
       "name": "Kobold"
+    },
+    "scale_sorcerer": {
+      "dexterity": "2",
+      "name": "Kobold Scale Sorcerer"
     },
     "winged": {
       "dexterity": "3",
       "name": "Winged Kobold"
     }
+  },
+  "korred": {
+    "dexterity": "2",
+    "name": "Korred"
   },
   "kraken": {
     "dexterity": "0",

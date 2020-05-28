@@ -1,5 +1,13 @@
 {
   "hag": {
+    "annis": {
+      "dexterity": "1",
+      "name": "Annis Hag"
+    },
+    "bheur": {
+      "dexterity": "3",
+      "name": "Bheur Hag"
+    },
     "green": {
       "dexterity": "1",
       "name": "Green Hag"
@@ -37,6 +45,14 @@
     "captain": {
       "dexterity": "2",
       "name": "Hobgoblin Captain"
+    },
+    "devastator": {
+      "dexterity": "1",
+      "name": "Hobgoblin Devastator"
+    },
+    "iron_shadow": {
+      "dexterity": "3",
+      "name": "Hobgoblin Iron Shadow"
     },
     "regular": {
       "dexterity": "1",
