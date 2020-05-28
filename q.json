@@ -2,5 +2,9 @@
   "quaggoth": {
     "dexterity": "1",
     "name": "Quaggoth"
+  },
+  "quickling": {
+    "dexterity": "6",
+    "name": "Quickling"
   }
 }

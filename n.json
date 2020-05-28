@@ -17,9 +17,31 @@
     "dexterity": "4",
     "name": "Neodorn"
   },
+  "neogi": {
+    "hatchling": {
+      "dexterity": "4",
+      "name": "Neogi Hatchling"
+    },
+    "master": {
+      "dexterity": "4",
+      "name": "Neogi Master"
+    },
+    "regular": {
+      "dexterity": "4",
+      "name": "Neogi"
+    }
+  },
+  "neothelid": {
+    "dexterity": "-2",
+    "name": "Neothelid"
+  },
   "nightmare": {
     "dexterity": "2",
     "name": "Nightmare"
+  },
+  "nilbog": {
+    "dexterity": "2",
+    "name": "Nilbog"
   },
   "nothic": {
     "dexterity": "3",

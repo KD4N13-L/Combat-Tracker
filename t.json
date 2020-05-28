@@ -7,6 +7,14 @@
     "dexterity": "2",
     "name": "Thri-kreen"
   },
+  "tlincalli": {
+    "dexterity": "1",
+    "name": "Tlincalli"
+  },
+  "trapper": {
+    "dexterity": "0",
+    "name": "Trapper"
+  },
   "treant": {
     "dexterity": "-1",
     "name": "Treant"

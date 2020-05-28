@@ -1,7 +1,23 @@
 {
+  "abjurer": {
+    "dexterity": "2",
+    "name": "Abjurer"
+  },
   "acolyte": {
     "dexterity": "0",
     "name": "Acolyte"
+  },
+  "apprentice_wizard": {
+    "dexterity": "0",
+    "name": "Apprentice Wizard"
+  },
+  "archdruid": {
+    "dexterity": "2",
+    "name": "Archdruid"
+  },
+  "archer": {
+    "dexterity": "4",
+    "name": "Archer"
   },
   "archmage": {
     "dexterity": "2",
@@ -19,9 +35,25 @@
     "dexterity": "3",
     "name": "Bandit Captain"
   },
+  "bard": {
+    "dexterity": "2",
+    "name": "Bard"
+  },
+  "blackguard": {
+    "dexterity": "0",
+    "name": "Blackguard"
+  },
+  "champion": {
+    "dexterity": "2",
+    "name": "Champion"
+  },
   "commoner": {
     "dexterity": "0",
     "name": "Commoner"
+  },
+  "conjurer": {
+    "dexterity": "2",
+    "name": "Conjurer"
   },
   "cult_fanatic": {
     "dexterity": "2",
@@ -31,13 +63,25 @@
     "dexterity": "1",
     "name": "Cultist"
   },
+  "diviner": {
+    "dexterity": "2",
+    "name": "Diviner"
+  },
   "druid": {
     "dexterity": "1",
     "name": "Druid"
   },
+  "enchanter": {
+    "dexterity": "2",
+    "name": "Enchanter"
+  },
   "evil_mage": {
     "dexterity": "2",
     "name": "Evil Mage"
+  },
+  "evoker": {
+    "dexterity": "2",
+    "name": "Evoker"
   },
   "gladiator": {
     "dexterity": "2",
@@ -47,6 +91,10 @@
     "dexterity": "1",
     "name": "Guard"
   },
+  "illusionist": {
+    "dexterity": "2",
+    "name": "Illusionist"
+  },
   "kairon": {
     "dexterity": "2",
     "name": "Kairon"
@@ -55,13 +103,29 @@
     "dexterity": "0",
     "name": "Knight"
   },
+  "kraken_priest": {
+    "dexterity": "0",
+    "name": "Kraken Priest"
+  },
   "mage": {
     "dexterity": "2",
     "name": "Mage"
   },
+  "martial_arts_adept": {
+    "dexterity": "3",
+    "name": "Martial Arts Adept"
+  },
+  "master_thief": {
+    "dexterity": "4",
+    "name": "Master Thief"
+  },
   "mormesk_wraith": {
     "dexterity": "3",
     "name": "Mormesk the Wraith"
+  },
+  "necromancer": {
+    "dexterity": "2",
+    "name": "Necromancer"
   },
   "nezznar": {
     "dexterity": "1",
@@ -91,9 +155,17 @@
     "dexterity": "2",
     "name": "Spy"
   },
+  "swashbuckler": {
+    "dexterity": "4",
+    "name": "Swashbuckler"
+  },
   "thug": {
     "dexterity": "0",
     "name": "Thug"
+  },
+  "transmuter": {
+    "dexterity": "2",
+    "name": "Transmuter"
   },
   "tribal_warrior": {
     "dexterity": "0",
@@ -102,5 +174,27 @@
   "veteran": {
     "dexterity": "1",
     "name": "Veteran"
+  },
+  "war_priest": {
+    "dexterity": "0",
+    "name": "War Priest"
+  },
+  "warlock": {
+    "archfey": {
+      "dexterity": "1",
+      "name": "Warlock of the Archfey"
+    },
+    "fiend": {
+      "dexterity": "2",
+      "name": "Warlock of the Fiend"
+    },
+    "great_old_one": {
+      "dexterity": "2",
+      "name": "Warlock of the Great Old One"
+    }
+  },
+  "warlord": {
+    "dexterity": "3",
+    "name": "Warlord"
   }
 }

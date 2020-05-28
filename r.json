@@ -3,6 +3,10 @@
     "dexterity": "3",
     "name": "Rakshasa"
   },
+  "redcap": {
+    "dexterity": "1",
+    "name": "Redcap"
+  },
   "remorhaz": {
     "regular": {
       "dexterity": "1",
