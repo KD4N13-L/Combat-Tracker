@@ -32,41 +32,17 @@
     }
   },
   "orc": {
-    "blade": {
-      "dexterity": "0",
-      "name": "Orc Blade of Ilneval"
-    },
-    "claw": {
-      "dexterity": "2",
-      "name": "Orc Claw of Luthic"
-    },
     "eye_of_gruumsh": {
       "dexterity": "1",
       "name": "Orc Eye of Gruumsh"
-    },
-    "hand": {
-      "dexterity": "0",
-      "name": "Orc Hand of Yurtrus"
-    },
-    "nurtured_one": {
-      "dexterity": "-1",
-      "name": "Orc Nurtured One of Yurtrus"
     },
     "orog": {
       "dexterity": "1",
       "name": "Orog"
     },
-    "red_fang": {
-      "dexterity": "3",
-      "name": "Orc Red Fang of Shargaas"
-    },
     "regular": {
       "dexterity": "1",
       "name": "Orc"
-    },
-    "tanarukk": {
-      "dexterity": "1",
-      "name": "Tanarukk"
     },
     "war_chief": {
       "dexterity": "1",

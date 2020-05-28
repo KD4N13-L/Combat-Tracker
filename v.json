@@ -8,23 +8,5 @@
       "dexterity": "3",
       "name": "Vampire Spawn"
     }
-  },
-  "vargouille": {
-    "dexterity": "2",
-    "name": "Vargouille"
-  },
-  "vegepygmy": {
-    "chief": {
-      "dexterity": "2",
-      "name": "Vegepygmy Chief"
-    },
-    "regular": {
-      "dexterity": "2",
-      "name": "Vegepygmy"
-    },
-    "thorny": {
-      "dexterity": "1",
-      "name": "Thorny"
-    }
   }
 }

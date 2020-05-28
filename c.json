@@ -7,14 +7,6 @@
     "dexterity": "1",
     "name": "Carrion Crawler"
   },
-  "catoblepas": {
-    "dexterity": "1",
-    "name": "Catoblepas"
-  },
-  "cave_fisher": {
-    "dexterity": "1",
-    "name": "Cave Fisher"
-  },
   "centaur": {
     "dexterity": "2",
     "name": "Centaur"
@@ -22,14 +14,6 @@
   "chimera": {
     "dexterity": "0",
     "name": "Chimera"
-  },
-  "chitine": {
-    "dexterity": "2",
-    "name": "Chitine"
-  },
-  "choldrith": {
-    "dexterity": "3",
-    "name": "Choldrith"
   },
   "chuul": {
     "dexterity": "0",
@@ -46,16 +30,6 @@
   "couatl": {
     "dexterity": "5",
     "name": "Couatl"
-  },
-  "cranium_rat": {
-    "regular": {
-      "dexterity": "2",
-      "name": "Cranium Rat"
-    },
-    "swarm": {
-      "dexterity": "2",
-      "name": "Swarm of Cranium Rat"
-    }
   },
   "crawling_claw": {
     "dexterity": "2",

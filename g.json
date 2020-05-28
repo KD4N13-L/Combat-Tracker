@@ -41,73 +41,33 @@
   },
   "giant": {
     "cloud": {
-      "regular": {
-        "dexterity": "0",
-        "name": "Cloud Giant"
-      },
-      "smiling_one": {
-        "dexterity": "1",
-        "name": "Cloud Giant Smiling One"
-      }
+      "dexterity": "0",
+      "name": "Cloud Giant"
     },
     "fire": {
-      "dreadnought": {
-        "dexterity": "-1",
-        "name": "Fire Giant Dreadnought"
-      },
-      "regular": {
-        "dexterity": "-1",
-        "name": "Fire Giant"
-      }
+      "dexterity": "-1",
+      "name": "Fire Giant"
     },
     "frost": {
-      "everlasting_one": {
-        "dexterity": "-1",
-        "name": "Frost Giant Everlasting One"
-      },
-      "regular": {
-        "dexterity": "-1",
-        "name": "Frost Giant"
-      }
+      "dexterity": "-1",
+      "name": "Frost Giant"
     },
     "hill": {
-      "mouth": {
-        "dexterity": "0",
-        "name": "Mouth of Grolantor"
-      },
-      "regular": {
-        "dexterity": "-1",
-        "name": "Hill Giant"
-      }
+      "dexterity": "-1",
+      "name": "Hill Giant"
     },
     "stone": {
-      "dreamwalker": {
-        "dexterity": "2",
-        "name": "Stone Giant Dreamwalker"
-      },
-      "regular": {
-        "dexterity": "2",
-        "name": "Stone Giant"
-      }
+      "dexterity": "2",
+      "name": "Stone Giant"
     },
     "storm": {
-      "quintessent": {
-        "dexterity": "2",
-        "name": "Storm Giant Quintessent"
-      },
-      "regular": {
-        "dexterity": "2",
-        "name": "Storm Giant"
-      }
+      "dexterity": "2",
+      "name": "Storm Giant"
     }
   },
   "gibbering_mouther": {
     "dexterity": "-1",
     "name": "Gibbering Mouther"
-  },
-  "girallon": {
-    "dexterity": "3",
-    "name": "Girallon"
   },
   "githyanki": {
     "knight": {
@@ -134,18 +94,6 @@
       "dexterity": "2",
       "name": "Gnoll Fang of Yeenoghu"
     },
-    "flesh_gnawer": {
-      "dexterity": "2",
-      "name": "Gnoll Flesh Gnawer"
-    },
-    "flind": {
-      "dexterity": "0",
-      "name": "Flind"
-    },
-    "hunter": {
-      "dexterity": "2",
-      "name": "Gnoll Hunter"
-    },
     "pack_lord": {
       "dexterity": "2",
       "name": "Gnoll Pack Lord"
@@ -153,10 +101,6 @@
     "regular": {
       "dexterity": "1",
       "name": "Gnoll"
-    },
-    "witherling": {
-      "dexterity": "-1",
-      "name": "Gnoll Witherling"
     }
   },
   "gnome_deep": {
@@ -216,41 +160,5 @@
   "grimlock": {
     "dexterity": "1",
     "name": "Grimlock"
-  },
-  "grung": {
-    "elite": {
-      "dexterity": "3",
-      "name": "Grung Elite Warrior"
-    },
-    "regular": {
-      "dexterity": "2",
-      "name": "Grung"
-    },
-    "wildling": {
-      "dexterity": "3",
-      "name": "Grung Wildling"
-    }
-  },
-  "guard_drake": {
-    "black": {
-      "dexterity": "0",
-      "name": "Guard Drake (Black)"
-    },
-    "blue": {
-      "dexterity": "0",
-      "name": "Guard Drake (Blue)"
-    },
-    "green": {
-      "dexterity": "0",
-      "name": "Guard Drake (Green)"
-    },
-    "red": {
-      "dexterity": "0",
-      "name": "Guard Drake (Red)"
-    },
-    "white": {
-      "dexterity": "0",
-      "name": "Guard Drake (White)"
-    }
   }
 }

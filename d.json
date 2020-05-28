@@ -1,14 +1,4 @@
 {
-  "darkling": {
-    "elder": {
-      "dexterity": "3",
-      "name": "Darkling Elder"
-    },
-    "regular": {
-      "dexterity": "3",
-      "name": "Darkling"
-    }
-  },
   "darkmantle": {
     "dexterity": "1",
     "name": "Darkmantle"
@@ -17,19 +7,11 @@
     "dexterity": "0",
     "name": "Death Knight"
   },
-  "deep_scion": {
-    "dexterity": "1",
-    "name": "Deep Scion"
-  },
   "demilich": {
     "dexterity": "5",
     "name": "Demilich"
   },
   "demon": {
-    "babau": {
-      "dexterity": "3",
-      "name": "Babau"
-    },
     "balor": {
       "dexterity": "2",
       "name": "Balor"
@@ -66,10 +48,6 @@
       "dexterity": "2",
       "name": "Marilith"
     },
-    "maw_demon": {
-      "dexterity": "-1",
-      "name": "Maw Demon"
-    },
     "nalfeshnee": {
       "dexterity": "2",
       "name": "Nalfeshnee"
@@ -81,10 +59,6 @@
     "shadow_demon": {
       "dexterity": "3",
       "name": "Shadow Demon"
-    },
-    "shoosuva": {
-      "dexterity": "1",
-      "name": "Shoosuva"
     },
     "vrock": {
       "dexterity": "2",
@@ -145,10 +119,6 @@
       "name": "Spined Devil (Spinagon)"
     }
   },
-  "devourer": {
-    "dexterity": "1",
-    "name": "Devourer"
-  },
   "dinosaur": {
     "allosaurus": {
       "dexterity": "1",
@@ -158,22 +128,6 @@
       "dexterity": "0",
       "name": "Ankylosaurus"
     },
-    "brontosaurus": {
-      "dexterity": "-1",
-      "name": "Brontosaurus"
-    },
-    "deinonychus": {
-      "dexterity": "2",
-      "name": "Deinonychus"
-    },
-    "dimetrodon": {
-      "dexterity": "0",
-      "name": "Dimetrodon"
-    },
-    "hadrosaurus": {
-      "dexterity": "0",
-      "name": "Hadrosaurus"
-    },
     "plesiosaurus": {
       "dexterity": "2",
       "name": "Plesiosaurus"
@@ -182,14 +136,6 @@
       "dexterity": "2",
       "name": "Pteranodon"
     },
-    "quetzalcoatlus": {
-      "dexterity": "1",
-      "name": "Quetzalcoatlus"
-    },
-    "stegosaurus": {
-      "dexterity": "-1",
-      "name": "Stegosaurus"
-    },
     "t_rex": {
       "dexterity": "0",
       "name": "Tyrannosaurus Rex"
@@ -197,10 +143,6 @@
     "triceratops": {
       "dexterity": "-1",
       "name": "Triceratops"
-    },
-    "velociraptor": {
-      "dexterity": "2",
-      "name": "Velociraptor"
     }
   },
   "displacer_beast": {
@@ -214,10 +156,6 @@
   "dracolich_adult_blue": {
     "dexterity": "0",
     "name": "Adult Blue Dracolich"
-  },
-  "draegloth": {
-    "dexterity": "2",
-    "name": "Draegloth"
   },
   "dragon": {
     "black": {

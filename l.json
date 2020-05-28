@@ -3,10 +3,6 @@
     "dexterity": "1",
     "name": "Lamia"
   },
-  "leucrotta": {
-    "dexterity": "2",
-    "name": "Leucrotta"
-  },
   "lich": {
     "dexterity": "3",
     "name": "Lich"

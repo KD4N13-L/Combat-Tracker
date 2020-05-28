@@ -31,17 +31,9 @@
     "dexterity": "1",
     "name": "Scarecrow"
   },
-  "sea_spawn": {
-    "dexterity": "-1",
-    "name": "Sea Spawn"
-  },
   "shadow": {
     "dexterity": "2",
     "name": "Shadow"
-  },
-  "shadow_mastiff": {
-    "dexterity": "2",
-    "name": "Shadow Mastiff"
   },
   "shambling_mound": {
     "dexterity": "-1",
@@ -101,14 +93,6 @@
       "dexterity": "2",
       "name": "Slaad Tadpole"
     }
-  },
-  "slithering_tracker": {
-    "dexterity": "4",
-    "name": "Slithering Tracker"
-  },
-  "spawn_of_kyuss": {
-    "dexterity": "0",
-    "name": "Spawn of Kyuss"
   },
   "specter": {
     "dexterity": "2",

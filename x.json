@@ -2,15 +2,5 @@
   "xorn": {
     "dexterity": "0",
     "name": "Xorn"
-  },
-  "xvart": {
-    "regular": {
-      "dexterity": "2",
-      "name": "Xvart"
-    },
-    "warlock": {
-      "dexterity": "2",
-      "name": "Xvart Warlock of Raxivort"
-    }
   }
 }

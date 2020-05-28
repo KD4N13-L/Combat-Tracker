@@ -1,8 +1,4 @@
 {
-  "yeth_hound": {
-    "dexterity": "3",
-    "name": "Yeth Hound"
-  },
   "yeti": {
     "abonimable": {
       "dexterity": "0",
@@ -18,29 +14,9 @@
       "dexterity": "3",
       "name": "Yuan-ti Abomination"
     },
-    "anathema": {
-      "dexterity": "1",
-      "name": "Yuan-ti Anathema"
-    },
-    "broodguard": {
-      "dexterity": "2",
-      "name": "Yuan-ti Broodguard"
-    },
     "malison": {
       "dexterity": "2",
       "name": "Yuan-ti Malison"
-    },
-    "mind_whisperer": {
-      "dexterity": "2",
-      "name": "Yuan-ti Mind_Whisperer"
-    },
-    "nightmare_speaker": {
-      "dexterity": "2",
-      "name": "Yuan-ti Nightmare Speaker"
-    },
-    "pit_master": {
-      "dexterity": "2",
-      "name": "Yuan-ti Pit Master"
     },
     "pureblood": {
       "dexterity": "1",

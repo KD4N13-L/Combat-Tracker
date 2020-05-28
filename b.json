@@ -1,15 +1,7 @@
 {
-  "banderhobb": {
-    "dexterity": "1",
-    "name": "Banderhobb"
-  },
   "banshee": {
     "dexterity": "2",
     "name": "Banshee"
-  },
-  "barghest": {
-    "dexterity": "2",
-    "name": "Barghest"
   },
   "basilisk": {
     "dexterity": "-1",
@@ -20,21 +12,9 @@
     "name": "Behir"
   },
   "beholder": {
-    "death_kiss": {
-      "dexterity": "2",
-      "name": "Death Kiss"
-    },
     "death_tyrant": {
       "dexterity": "2",
       "name": "Death Tyrant"
-    },
-    "gauth": {
-      "dexterity": "2",
-      "name": "Gauth"
-    },
-    "gazer": {
-      "dexterity": "2",
-      "name": "Gazer"
     },
     "regular": {
       "dexterity": "2",
@@ -58,14 +38,6 @@
       "dexterity": "-1",
       "name": "Vine Blight"
     }
-  },
-  "bodak": {
-    "dexterity": "3",
-    "name": "Bodak"
-  },
-  "boggle": {
-    "dexterity": "4",
-    "name": "Boggle"
   },
   "bugbear": {
     "chief": {

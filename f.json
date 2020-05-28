@@ -3,24 +3,6 @@
     "dexterity": "20",
     "name": "Faerie Dragon"
   },
-  "firenewt": {
-    "strider": {
-      "dexterity": "1",
-      "name": "Giant Strider"
-    },
-    "warlock": {
-      "dexterity": "0",
-      "name": "Firenewt Warlock of Imix"
-    },
-    "warrior": {
-      "dexterity": "1",
-      "name": "Firenewt Warrior"
-    }
-  },
-  "flail_snail": {
-    "dexterity": "-3",
-    "name": "Flail Snail"
-  },
   "flameskull": {
     "dexterity": "3",
     "name": "Flameskull"
@@ -32,10 +14,6 @@
   "fomorian": {
     "dexterity": "0",
     "name": "Fomorian"
-  },
-  "froghemoth": {
-    "dexterity": "1",
-    "name": "Froghemoth"
   },
   "fungi": {
     "gas_spore": {
