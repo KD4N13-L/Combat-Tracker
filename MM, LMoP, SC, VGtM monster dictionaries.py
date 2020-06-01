@@ -425,7 +425,7 @@ v["vampire"]["spawn"] = {"name": "Vampire Spawn", "dexterity": "3"}
 
 w = {}
 
-w["water_weird"] = {"name": "R", "dexterity": "3"}
+w["water_weird"] = {"name": "Water Weird", "dexterity": "3"}
 w["wight"] = {"name": "Wight", "dexterity": "2"}
 w["will_o_wisp"] = {"name": "Will-o'-Wisp", "dexterity": "9"}
 w["wraith"] = {"name": "Wraith", "dexterity": "3"}
@@ -611,6 +611,11 @@ npcs["mormesk_wraith"] = {"name": "Mormesk the Wraith", "dexterity": "3"}
 npcs["nezznar"] = {"name": "Nezznar the Black Spider", "dexterity": "1"}
 npcs["redbrand"] = {"name": "Redbrand Ruffian", "dexterity": "2"}
 npcs["sildar"] = {"name": "Sildar Hallwinter", "dexterity": "0"}
+
+# Sunless Citadel
+k["kobold"]["yusdrayl"] = {"name": "Yusdrayl", "dexterity": "2"}
+npcs["braford"] = {"name": "Sir Braford", "dexterity": "-1"}
+npcs["sharwyn"] = {"name": "Sharwyn Hucrele", "dexterity": "1"}
 
 # Homebrew
 e["drow"]["wizard"] = {"name": "Drow Wizard", "dexterity": "2"}

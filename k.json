@@ -27,6 +27,10 @@
     "winged": {
       "dexterity": "3",
       "name": "Winged Kobold"
+    },
+    "yusdrayl": {
+      "dexterity": "2",
+      "name": "Yusdrayl"
     }
   },
   "korred": {

@@ -43,6 +43,10 @@
     "dexterity": "0",
     "name": "Blackguard"
   },
+  "braford": {
+    "dexterity": "-1",
+    "name": "Sir Braford"
+  },
   "champion": {
     "dexterity": "2",
     "name": "Champion"
@@ -146,6 +150,10 @@
   "scout": {
     "dexterity": "2",
     "name": "Scout"
+  },
+  "sharwyn": {
+    "dexterity": "1",
+    "name": "Sharwyn Hucrele"
   },
   "sildar": {
     "dexterity": "0",
