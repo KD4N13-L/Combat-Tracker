@@ -1,7 +1,7 @@
 {
-  "amount": 6,
+  "amount": 7,
   "player1": {
-    "name": "Azmerick the Sad Judgement",
+    "name": "Azmerick",
     "initiative": 10,
     "dexterity": 0
   },
@@ -11,9 +11,9 @@
     "dexterity": 3
   },
   "player3": {
-    "name": "Zard",
+    "name": "Dzis69",
     "initiative": 10,
-    "dexterity": 3
+    "dexterity": 2
   },
   "player4": {
     "name": "Olaf",
@@ -21,13 +21,18 @@
     "dexterity": 2
   },
   "player5": {
-    "name": "Dzis69",
-    "initiative": 10,
-    "dexterity": 2
-  },
-  "player6": {
-    "name": "Journey & Meg (Lev'anthia Trebeque & Noele Megan the Panther)",
+    "name": "Journey",
     "initiative": 10,
     "dexterity": 3
+  },
+  "player6": {
+    "name": "Zard",
+    "initiative": 10,
+    "dexterity": 3
+  },
+  "player7": {
+    "name": "Meg",
+    "initiative": 10,
+    "dexterity": 2
   }
 }

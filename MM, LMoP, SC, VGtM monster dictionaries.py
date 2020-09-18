@@ -1,6 +1,7 @@
 import json
 
 # Monster Manual
+
 a = {}
 a["angel"] = {}
 a["animated"] = {}
@@ -606,6 +607,7 @@ npcs["tribal_warrior"] = {"name": "Tribal Warrior", "dexterity": "0"}
 npcs["veteran"] = {"name": "Veteran", "dexterity": "1"}
 
 # Lost Mine of Phandelver
+
 npcs["evil_mage"] = {"name": "Evil Mage", "dexterity": "2"}
 npcs["mormesk_wraith"] = {"name": "Mormesk the Wraith", "dexterity": "3"}
 npcs["nezznar"] = {"name": "Nezznar the Black Spider", "dexterity": "1"}
@@ -613,11 +615,13 @@ npcs["redbrand"] = {"name": "Redbrand Ruffian", "dexterity": "2"}
 npcs["sildar"] = {"name": "Sildar Hallwinter", "dexterity": "0"}
 
 # Sunless Citadel
+
 k["kobold"]["yusdrayl"] = {"name": "Yusdrayl", "dexterity": "2"}
 npcs["braford"] = {"name": "Sir Braford", "dexterity": "-1"}
 npcs["sharwyn"] = {"name": "Sharwyn Hucrele", "dexterity": "1"}
 
 # Homebrew
+
 e["drow"]["wizard"] = {"name": "Drow Wizard", "dexterity": "2"}
 d["devil"]["hellish_minotaur"] = {"name": "Hellish MInotaur", "dexterity": "0"}
 n["neodorn"] = {"name": "Neodorn", "dexterity": "4"}
@@ -631,6 +635,7 @@ s["sphinx"]["regular"] = {"name": "Sphinx", "dexterity": "2"}
 npcs["kairon"] = {"name": "Kairon", "dexterity": "2"}
 
 # Volo's Guide to Monsters
+
 b["banderhobb"] = {"name": "Banderhobb", "dexterity": "1"}
 b["barghest"] = {"name": "Barghest", "dexterity": "2"}
 b["beholder"]["death_kiss"] = {"name": "Death Kiss", "dexterity": "2"}
