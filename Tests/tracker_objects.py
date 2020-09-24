@@ -122,8 +122,7 @@ class Player_list:
         dictionary_destination = {"amount": amount}
         while i_pc <= amount:
             value_pc = 'player%d' % i_pc
-            player = {}
-            player[value_pc] = {"name": "blank", "initiative": 0, "dexterity": 0}
+            player = {value_pc: {"name": "blank", "initiative": 0, "dexterity": 0}}
             print("Input information of PC", i_pc)
             player[value_pc].update({"name": input("Name: ")})
             player[value_pc].update({"initiative": 10})
