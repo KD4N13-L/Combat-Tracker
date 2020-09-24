@@ -8,17 +8,18 @@ seed(randint(1, 100))
 
 class Participant:
 
-    def __init__(self, name, modifier, initiative):
+    def __init__(self, name, modifier, initiative, player):
         self.name = name
         self.modifier = modifier
         self.initiative = initiative
+        self.player = player
 
     def display_participant(self):
         if self.modifier >= 0:
             new_mod = "+" + str(self.modifier)
-            print(self.initiative, ":", self.name, "( Dexterity : ", new_mod, ")")
+            print(self.initiative, ":", self.name, "(", new_mod, ")")
         else:
-            print(self.initiative, ":", self.name, "( Dexterity : ", self.modifier, ")")
+            print(self.initiative, ":", self.name, "(", self.modifier, ")")
 
 
 class Initiative:
@@ -43,7 +44,8 @@ class Initiative:
                 name = dictionary["name"]
                 modifier = int(dictionary["dexterity"])
                 initiative = randint(1, 20) + modifier
-                creature = Participant(name, modifier, initiative)
+                player = False
+                creature = Participant(name, modifier, initiative, player)
                 creature_list.append(creature)
                 print(creature.name, "has been added to the initiative!")
                 return
@@ -75,9 +77,35 @@ class Initiative:
         self.amount += 1
 
     def sort_creatures(self):
-        def initiative_sorter(Participant):
-            return Participant.initiative
+        def initiative_sorter(participant):
+            return participant.initiative
+
         self.creatures.sort(key=initiative_sorter, reverse=True)
+        list_length = len(self.creatures)
+        for index1 in range(list_length - 1):
+            index2 = index1 + 1
+            if self.creatures[index1].initiative == self.creatures[index2].initiative:
+                if self.creatures[index1].modifier < self.creatures[index2].modifier:
+                    temp = self.creatures[index1]
+                    self.creatures[index1] = self.creatures[index2]
+                    self.creatures[index2] = temp
+                elif self.creatures[index1].modifier == self.creatures[index2].modifier:
+                    if self.creatures[index1].player:
+                        print(self.creatures[index1].name, "is tied on initiative with another participant. Ask them "
+                                                           "to roll initiative again.")
+                        initiative1 = int(input("Input the reult. ---- "))
+                    else:
+                        initiative1 = randint(1, 20) + self.creatures[index1].modifier
+                    if self.creatures[index2].player:
+                        print(self.creatures[index2].name, "is tied on initiative with another participant. Ask them "
+                                                           "to roll initiative again.")
+                        initiative2 = int(input("Input the reult. ---- "))
+                    else:
+                        initiative2 = randint(1, 20) + self.creatures[index2].modifier
+                    if initiative1 < initiative2:
+                        temp = self.creatures[index1]
+                        self.creatures[index1] = self.creatures[index2]
+                        self.creatures[index2] = temp
         return self.creatures
 
 
@@ -121,7 +149,8 @@ class Player_list:
                     modifier = dictionary['' + value_pc + '']["dexterity"]
                     print(name)
                     initiative = int(input("Initiative Score: "))
-                    player = Participant(name, modifier, initiative)
+                    player = True
+                    player = Participant(name, modifier, initiative, player)
                     updated_list.append(player)
                     self.participants += updated_list
                     i_pc += 1
@@ -139,7 +168,7 @@ def main():
     plays = Player_list()
     npc_number = int(input("How many NPCs are participating (0 to 15)? ---- "))
     init.import_npcs(npc_number)
-    # plays.create_players()
+    #plays.create_players()
     plays.import_players(init)
     init.sort_creatures()
     init.display_current_list()
