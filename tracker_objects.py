@@ -17,9 +17,9 @@ class Participant:
     def display_participant(self):
         if self.modifier >= 0:
             new_mod = "+" + str(self.modifier)
-            print(self.initiative, ":", self.name, "(", new_mod, ")")
+            print(self.initiative, ":", self.name, "( Dexterity :", new_mod, ")")
         else:
-            print(self.initiative, ":", self.name, "(", self.modifier, ")")
+            print(self.initiative, ":", self.name, "( Dexterity :", self.modifier, ")")
 
 
 class Initiative:
@@ -82,30 +82,36 @@ class Initiative:
 
         self.creatures.sort(key=initiative_sorter, reverse=True)
         list_length = len(self.creatures)
-        for index1 in range(list_length - 1):
-            index2 = index1 + 1
-            if self.creatures[index1].initiative == self.creatures[index2].initiative:
-                if self.creatures[index1].modifier < self.creatures[index2].modifier:
-                    temp = self.creatures[index1]
-                    self.creatures[index1] = self.creatures[index2]
-                    self.creatures[index2] = temp
-                elif self.creatures[index1].modifier == self.creatures[index2].modifier:
-                    if self.creatures[index1].player:
-                        print(self.creatures[index1].name, "is tied on initiative with another participant. Ask them "
-                                                           "to roll initiative again.")
+        for index1 in (range(0, list_length - 1)):
+            temp_list = []
+            for index2 in range(index1 + 1, list_length):
+                if self.creatures[index1].initiative == self.creatures[index2].initiative:
+                    if self.creatures[index1] not in temp_list:
+                        temp_list.append(self.creatures[index1])
+                        self.creatures.remove(self.creatures[index1])
+                    if self.creatures[index2] not in temp_list:
+                        temp_list.append(self.creatures[index2])
+                        self.creatures.remove(self.creatures[index2])
+            for tempindex1 in range(len(temp_list) - 1):
+                tempindex2 = tempindex1 + 1
+                if temp_list[tempindex1].modifier < temp_list[tempindex2].modifier:
+                    temp_list[tempindex1], temp_list[tempindex2] = temp_list[tempindex2], temp_list[tempindex1]
+                elif temp_list[tempindex1].modifier == temp_list[tempindex2].modifier:
+                    if temp_list[tempindex1].player:
+                        print(temp_list[tempindex1].name, "is tied on initiative with another participant. Ask them "
+                                                          "to roll initiative again.")
                         initiative1 = int(input("Input the reult. ---- "))
                     else:
-                        initiative1 = randint(1, 20) + self.creatures[index1].modifier
-                    if self.creatures[index2].player:
-                        print(self.creatures[index2].name, "is tied on initiative with another participant. Ask them "
-                                                           "to roll initiative again.")
+                        initiative1 = randint(1, 20) + temp_list[tempindex1].modifier
+                    if temp_list[tempindex2].player:
+                        print(temp_list[tempindex2].name, "is tied on initiative with another participant. Ask them "
+                                                          "to roll initiative again.")
                         initiative2 = int(input("Input the reult. ---- "))
                     else:
-                        initiative2 = randint(1, 20) + self.creatures[index2].modifier
+                        initiative2 = randint(1, 20) + temp_list[tempindex2].modifier
                     if initiative1 < initiative2:
-                        temp = self.creatures[index1]
-                        self.creatures[index1] = self.creatures[index2]
-                        self.creatures[index2] = temp
+                        temp_list[tempindex1], temp_list[tempindex2] = temp_list[tempindex2], temp_list[tempindex1]
+
         return self.creatures
 
 
@@ -134,7 +140,7 @@ class Player_list:
 
     def import_players(self, initiative_list):
         while True:
-            dictionary_name = input("What is the name of the Players File? ---- ")
+            dictionary_name = input("What is the name of the Players File you'd like to import? ---- ")
             dictionary_file = '' + dictionary_name + '.json'
             manager = os.path.isfile(dictionary_file)
             if manager:
@@ -164,11 +170,14 @@ class Player_list:
 
 def main():
     init = Initiative()
-    plays = Player_list()
+    players = Player_list()
     npc_number = int(input("How many NPCs are participating (0 to 15)? ---- "))
     init.import_npcs(npc_number)
-    #plays.create_players()
-    plays.import_players(init)
+    print("Would you like to create a group of players? (Otherwise you'll import an already existing one)")
+    check = int(input("Answer: 1 for YES, 2 for NO ---- "))
+    if check == 1:
+        players.create_players()
+    players.import_players(init)
     init.sort_creatures()
     init.display_current_list()
 
