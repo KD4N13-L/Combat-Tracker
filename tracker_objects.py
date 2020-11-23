@@ -112,8 +112,7 @@ class Initiative:
                 mini_list.sort(key=initiative_sorter_mod, reverse=True)
                 check2 = None
                 for tempindex1 in range(len(mini_list) - 1):
-                    if mini_list[tempindex1].modifier == mini_list[tempindex1 + 1].modifier and check2 != mini_list[
-                        tempindex1].modifier:
+                    if mini_list[tempindex1].modifier == mini_list[tempindex1 + 1].modifier and check2 != mini_list[tempindex1].modifier:
                         micro_list = [mini_list[tempindex1], mini_list[tempindex1 + 1]]
                         check2 = mini_list[tempindex1].modifier
                         for tempindex2 in range(tempindex1 + 2, len(mini_list)):

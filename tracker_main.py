@@ -9,8 +9,9 @@ def main():
     print("Would you like to create a group of players? (Otherwise you'll import an already existing one)")
     check = int(input("Answer: 1 for YES, 2 for NO ---- "))
     if check == 1:
-        players.create_players()
-    players.import_players(init)
+        players.create_players(init)
+    else:
+        players.import_players(init)
     init.sort_creatures()
     init.display_current_list()
 

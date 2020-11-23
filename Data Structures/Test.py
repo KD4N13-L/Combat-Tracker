@@ -203,14 +203,22 @@ class SingleLinkedList(ListADT):
         else:
             print("The list is empty")
 
+    def to_json(self):
+        dictionary = []
+        if self.size != 0:
+            current_node = self.first
+            while current_node is not None:
+                dictionary.append(current_node.data)
+                current_node = current_node.next
+        else:
+            print("The list is empty")
+        return dictionary
+
 
 def main():
     dictionary_file = "../a.json"
     with open(dictionary_file) as data_file:
         dictionary = json.load(data_file)
-
-    # print(dictionary)
-
     names_llist = SingleLinkedList()
     for element in dictionary:
         names_llist.insertFirst(element)
@@ -218,6 +226,11 @@ def main():
     print(names_llist.get_size())
     print(SingleLinkedList.get_size(names_llist))
     names_llist.displayItems()
+
+    names_llist.insertFirst(input("Write a creature's name to be inputted ---- "))
+    print(names_llist.get_size())
+    with open('new_file.json', "w") as file:
+        json.dump(names_llist.to_json(), file, indent=2)
 
 
 main()

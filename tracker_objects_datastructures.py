@@ -132,8 +132,7 @@ class Initiative:
                 mini_list.sort(key=initiative_sorter_mod, reverse=True)
                 check2 = None
                 for tempindex1 in range(len(mini_list) - 1):
-                    if mini_list[tempindex1].modifier == mini_list[tempindex1 + 1].modifier and check2 != mini_list[
-                        tempindex1].modifier:
+                    if mini_list[tempindex1].modifier == mini_list[tempindex1 + 1].modifier and check2 != mini_list[tempindex1].modifier:
                         micro_list = [mini_list[tempindex1], mini_list[tempindex1 + 1]]
                         check2 = mini_list[tempindex1].modifier
                         for tempindex2 in range(tempindex1 + 2, len(mini_list)):
@@ -179,7 +178,7 @@ class Player_list:
         self.amount = 0
         self.participants = []
 
-    def create_players(self):
+    def create_players(self, initiative_list):
         while True:
             try:
                 amount = int(input("How many PCs are participating? ---- "))
@@ -197,7 +196,26 @@ class Player_list:
                     i_pc += 1
                 with open('' + dictionary_file_name + '.json', "w") as file:
                     json.dump(dictionary_destination, file, indent=2)
-                break
+
+                with open('' + dictionary_file_name + '.json') as data_file:
+                    dictionary = json.load(data_file)
+                dictionary = dict_to_hashmap(dictionary)
+                i_pc = 1
+                updated_list = []
+                while i_pc <= int(dictionary.get("amount")):
+                    value_pc = 'player%d' % i_pc
+                    name = dictionary.get('' + value_pc + '').get("name")
+                    modifier = dictionary.get('' + value_pc + '').get("dexterity")
+                    print(name)
+                    initiative = int(input("Initiative Score: "))
+                    player = True
+                    player = Participant(name, modifier, initiative, player)
+                    updated_list.append(player)
+                    self.participants += updated_list
+                    i_pc += 1
+                    updated_list = []
+                initiative_list.creatures += self.participants
+                return
             except ValueError:
                 print("Please, enter an integer larger than 0.")
 
