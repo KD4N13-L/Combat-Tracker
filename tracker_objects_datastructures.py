@@ -2,9 +2,28 @@ import json
 from random import randint
 from random import seed
 import os.path
-import Final_Hashmap
+from Final_Hashmap import *
 
 seed(randint(1, 100))
+
+
+def dict_dig_for_HashMap(dict_to_be_digged):
+    hash_map = HashMap()
+    for k, v in dict_to_be_digged.items():
+        if type(v) == dict:
+            v = dict_dig_for_HashMap(v)
+        hash_map.put(k, v)
+    return hash_map
+
+
+def dict_to_hashmap(dict_to_be_transformed):
+    hashmap = HashMap()
+    for key, value in dict_to_be_transformed.items():
+        final_value = value
+        if type(value) == dict:
+            final_value = dict_dig_for_HashMap(value)
+        hashmap.put(key, final_value)
+    return hashmap
 
 
 class Participant:
@@ -19,9 +38,9 @@ class Participant:
     def display_participant(self):
         if self.modifier >= 0:
             new_mod = "+" + str(self.modifier)
-            print(self.initiative, ":", self.name, "( Modifier :", new_mod, ")")
+            print(self.initiative, ":", self.name, "( Dexterity :", new_mod, ")")
         else:
-            print(self.initiative, ":", self.name, "( Modifier :", self.modifier, ")")
+            print(self.initiative, ":", self.name, "( Dexterity :", self.modifier, ")")
 
 
 class Initiative:
@@ -38,13 +57,14 @@ class Initiative:
             if alph_number in sorting_letters:
                 with open('' + alph_number + '.json') as data_file:
                     dictionary = json.load(data_file)
-                while 'name' not in dictionary.keys():
+                dictionary = dict_to_hashmap(dictionary)
+                while not dictionary.hasKey('name'):
                     hier = input("Input the creature's name. ---- ")
-                    while hier not in dictionary:
+                    while not dictionary.hasKey(hier):
                         hier = input("Such a creature doesn't exit. Try again. ---- ")
-                    dictionary = dictionary['' + hier + '']
-                name = dictionary["name"]
-                modifier = int(dictionary["dexterity"])
+                    dictionary = dictionary.get('' + hier + '')
+                name = dictionary.get("name")
+                modifier = int(dictionary.get("dexterity"))
                 initiative = randint(1, 20) + modifier
                 player = False
                 creature = Participant(name, modifier, initiative, player)
@@ -189,12 +209,13 @@ class Player_list:
             if manager:
                 with open(dictionary_file) as data_file:
                     dictionary = json.load(data_file)
+                dictionary = dict_to_hashmap(dictionary)
                 i_pc = 1
                 updated_list = []
-                while i_pc <= int(dictionary["amount"]):
+                while i_pc <= int(dictionary.get("amount")):
                     value_pc = 'player%d' % i_pc
-                    name = dictionary['' + value_pc + '']["name"]
-                    modifier = dictionary['' + value_pc + '']["dexterity"]
+                    name = dictionary.get('' + value_pc + '').get("name")
+                    modifier = dictionary.get('' + value_pc + '').get("dexterity")
                     print(name)
                     initiative = int(input("Initiative Score: "))
                     player = True
@@ -208,4 +229,4 @@ class Player_list:
             else:
                 print("Such a Players File doesn't exit.")
 
-# ---------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
