@@ -1,3 +1,22 @@
+def dict_dig_for_HashMap(dict_to_be_digged):
+    hash_map = HashMap()
+    for k, v in dict_to_be_digged.items():
+        if type(v) == dict:
+            v = dict_dig_for_HashMap(v)
+        hash_map.put(k, v)
+    return hash_map
+
+
+def dict_to_hashmap(dict_to_be_transformed):
+    hashmap = HashMap()
+    for key, value in dict_to_be_transformed.items():
+        final_value = value
+        if type(value) == dict:
+            final_value = dict_dig_for_HashMap(value)
+        hashmap.put(key, final_value)
+    return hashmap
+
+
 class Entry:
     def __init__(self, key, value):
         self.key = key
@@ -76,7 +95,6 @@ class HashMap:
         return self._size
 
     def print(self):
-        #print("printing hashset elements")
         for e in self._hashtable:
             while e is not None:
                 print("\t", e.key, ":", e.value)
@@ -85,7 +103,7 @@ class HashMap:
     def nested_print(self):
         def specific_print(hashmap, quantity_var):
             quantity_var += 1
-            for e in self._hashtable:
+            for e in hashmap._hashtable:
                 while e is not None:
                     if type(e.value) != int and type(e.value) != str:
                         tab = "\t" * quantity_var
