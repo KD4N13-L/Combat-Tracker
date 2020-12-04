@@ -3,6 +3,8 @@ from random import randint
 from random import seed
 import os.path
 from Final_Hashmap import *
+from deque_linked_list import *
+from single_linked_list import *
 
 seed(randint(1, 100))
 
@@ -27,7 +29,7 @@ class Participant:
 class Initiative:
 
     def __init__(self):
-        self.creatures = []
+        self.creatures = SingleLinkedList()
         self.size = 0
 
     def update(self, creature_list):
@@ -49,7 +51,7 @@ class Initiative:
                 initiative = randint(1, 20) + modifier
                 player = False
                 creature = Participant(name, modifier, initiative, player)
-                creature_list.append(creature)
+                creature_list.insertLast(creature)
                 print(creature.name, "has been added to the initiative!")
                 return
             else:
@@ -60,10 +62,9 @@ class Initiative:
         creature_amount = int(creature_amount)
         while True:
             if creature_amount == 0:
-                blank_list = []
-                return blank_list
+                return
             else:
-                for check in range(0, 15):
+                for check in range(1, 15):
                     if creature_amount == check:
                         for i in range(0, creature_amount):
                             self.update(self.creatures)
@@ -71,8 +72,13 @@ class Initiative:
                 print("Please insert a NON-negative INTEGER from 0 to 15")
 
     def display_current_list(self):
-        for creature in self.creatures:
-            creature.display_participant()
+        itr = self.creatures.first
+        while itr:
+            itr.data.display_participant()
+            itr = itr.next
+
+#        for creature in self.creatures:
+ #           creature.display_participant()
 
     def sort_creatures(self):
         def initiative_sorter_score(participant):
@@ -92,17 +98,23 @@ class Initiative:
             else:
                 participant.extra_initiative = randint(1, 20) + participant.modifier
 
-        self.creatures.sort(key=initiative_sorter_score, reverse=True)
+        _tbs_list = []
+        itr = self.creatures.first
+        while itr:
+            _tbs_list.append(itr.data)
+            itr = itr.next
+
+        _tbs_list.sort(key=initiative_sorter_score, reverse=True)
         check = Participant("name", 0, -10, False)
-        for index1 in range(len(self.creatures) - 1):
-            if self.creatures[index1].initiative != self.creatures[index1 + 1].initiative:
+        for index1 in range(len(_tbs_list) - 1):
+            if _tbs_list[index1].initiative != _tbs_list[index1 + 1].initiative:
                 pass
-            elif check.initiative != self.creatures[index1].initiative:
-                mini_list = [self.creatures[index1], self.creatures[index1 + 1]]
-                check = self.creatures[index1]
-                for index2 in range(index1 + 2, len(self.creatures)):
-                    if self.creatures[index1].initiative == self.creatures[index2].initiative:
-                        mini_list.append(self.creatures[index2])
+            elif check.initiative != _tbs_list[index1].initiative:
+                mini_list = [_tbs_list[index1], _tbs_list[index1 + 1]]
+                check = _tbs_list[index1]
+                for index2 in range(index1 + 2, len(_tbs_list)):
+                    if _tbs_list[index1].initiative == _tbs_list[index2].initiative:
+                        mini_list.append(_tbs_list[index2])
                     else:
                         break
                 mini_list.sort(key=initiative_sorter_mod, reverse=True)
@@ -137,22 +149,25 @@ class Initiative:
                             else:
                                 step_index += 1
                 step_index = 0
-                for i in self.creatures:
+                for i in _tbs_list:
                     if i.initiative == mini_list[0].initiative:
                         for x in mini_list:
-                            self.creatures.pop(step_index)
-                            self.creatures.insert(step_index, x)
+                            _tbs_list.pop(step_index)
+                            _tbs_list.insert(step_index, x)
                             step_index += 1
                         break
                     else:
                         step_index += 1
+        self.creatures.clear()
+        for i in _tbs_list:
+            self.creatures.insertLast(i)
 
 
 class Player_list:
 
     def __init__(self):
         self.amount = 0
-        self.participants = []
+        self.participants = LListDeque()
 
     def create_players(self, initiative_list):
         while True:
@@ -183,9 +198,13 @@ class Player_list:
                     initiative = int(input("Initiative Score: "))
                     player = True
                     player = Participant(name, modifier, initiative, player)
-                    self.participants.append(player)
+                    self.participants.insert_last(player)
                     i_pc += 1
-                initiative_list += self.participants
+                itr = self.participants.first
+                while itr:
+                    initiative_list.creatures.insertLast(itr.data)
+                    initiative_list.size += 1
+                    itr = itr.next
                 return
             except ValueError:
                 print("Please, enter an integer larger than 0.")
@@ -208,9 +227,13 @@ class Player_list:
                     initiative = int(input("Initiative Score: "))
                     player = True
                     player = Participant(name, modifier, initiative, player)
-                    self.participants.append(player)
+                    self.participants.insert_last(player)
                     i_pc += 1
-                initiative_list += self.participants
+                itr = self.participants.first
+                while itr:
+                    initiative_list.creatures.insertLast(itr.data)
+                    initiative_list.size += 1
+                    itr = itr.next
                 return
             else:
                 print("Such a Players File doesn't exit.")
