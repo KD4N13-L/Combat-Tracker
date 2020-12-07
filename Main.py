@@ -22,30 +22,32 @@ def Main():
         print("Write 3 to go to the Invulnerable Vagrant shop")
         choice = input("Input your choice: ")
 
-        if choice == 1:
-            shop_choice.importShop("general_shop")
-        elif choice == 2:
-            shop_choice.importShop("gilmores_glorious_goods")
-        elif choice == 3:
-            shop_choice.importShop("invulnerable_vagrant")
+        l = {"1": "general_shop", "2": "gilmores_glorious_goods", "3": "invulnerable_vagrant"}
+        for item in l.keys():
+            if item == choice:
+                shop_choice.importShop(l[item])
 
         print("Welcome to our shop!")
         print("Here is what we have available ~~~~~")
         shop_choice.printStorage()
         amount_of_items_you_wish_to_buy = int(input("How many items are you looking to buy from this store?: "))
         for i in range(amount_of_items_you_wish_to_buy):
-            chosen_item = input("Please choose the item you wish to buy(case and spelling sensative): ")
-            #shop_choice.getSpecificInformation(chosen_item)
+            chosen_item = str(input("Please choose the item you wish to buy(case and spelling sensitive): "))
+
             print("\n")
-            keyboard = input("Do you wish to buy this item?(y/n): ")
-            if keyboard == "y":
-                character.addItem(chosen_item)
-                print("Congratulations! May it serve you well!")
+            item_value = shop_choice.storage.get(chosen_item)
+            bought_item = Item(item_value.get("name"), item_value.get("price"), item_value.get("weight"),
+                               item_value.get("type"))
+            character.addItem(bought_item)
 
-            else:
-                print("I'll wait. Maybe you change your mind in the future.")
-        break
+        statement = input("Do you want to continue your shopping?(y/n)")
+        if statement == "n":
+            break
+
+    character.displayInventoryProperties()
+    print()
+    character.displayInventoryList()
+
     print("Thank you for using the Inventory tracker! Safe travels adventurer!!.")
-
 
 Main()

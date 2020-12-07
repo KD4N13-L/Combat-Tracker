@@ -51,6 +51,10 @@ class ListADT(ABC):
     def clear(self):
         pass
 
+    @abstractmethod
+    def print(self):
+        pass
+
 
 class Node:
 
@@ -195,4 +199,13 @@ class SingleLinkedList(ListADT):
         self.first = None
         self.last = None
         self.size = 0
+
+    def print(self):
+        if self.size == 0:
+            print("Linked list is empty")
+            return
+        itr = self.first
+        while itr:
+            print(itr.data)
+            itr = itr.next
 

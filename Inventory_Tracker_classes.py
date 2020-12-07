@@ -1,4 +1,5 @@
 from Final_Hashmap import *
+from single_linked_list import *
 import json
 
 
@@ -6,8 +7,8 @@ class Item:
 
     def __init__(self, name, price, weight, type):
         self.name = name
-        self.price = price
-        self.weight = weight
+        self.price = float(price)
+        self.weight = float(weight)
         self.type = type
 
     def getItemCost(self):
@@ -23,10 +24,10 @@ class Item:
         return self.name
 
     def displayInformation(self):
-        print("Name: ", self.getItemName())
-        print("Price: ", self.getItemCost(), "(gp)")
-        print("Weight: ", self.getItemWeight(), "(lbs)")
-        print("Type: ", self.getItemType())
+        print("\t", "Name: ", self.getItemName())
+        print("\t", "Price: ", self.getItemCost(), "(gp)")
+        print("\t", "Weight: ", self.getItemWeight(), "(lbs)")
+        print("\t", "Type: ", self.getItemType())
 
 
 class Character:
@@ -36,8 +37,8 @@ class Character:
         self.strength = strength_score
         self.carryingCapacity = 10 * self.strength
         self.inventory = HashMap()
-        self.encumbrance = self.carryingCapacity
-        self.coinPurse = amount_of_gold
+        self.encumbrance = float(self.carryingCapacity)
+        self.coinPurse = float(amount_of_gold)
 
     def addItem(self, item):
         if self.encumbrance - item.getItemWeight() < 0:
@@ -55,8 +56,22 @@ class Character:
         self.inventory.remove(item.name)
         self.coinPurse = self.coinPurse + item.getItemCost()
 
-    def displayInventory(self):
-        self.inventory.nested_print()
+    def displayInventoryProperties(self):
+        print("Here's what you specifically have in your inventory!")
+        for e in self.inventory._hashtable:
+            while e is not None:
+                print(e.key, ":")
+                e.value.displayInformation()
+                break
+
+    def displayInventoryList(self):
+        print("Here's what you have in your inventory!")
+        list = SingleLinkedList()
+        for e in self.inventory._hashtable:
+            while e is not None:
+                list.insertLast(e.key)
+                break
+        list.print()
 
     def getRemainingSpace(self):
         return self.encumbrance
@@ -74,8 +89,5 @@ class Shop:
 
     def printStorage(self):
         self.storage.nested_print()
-
-  #  def getSpecificInformation(self, item):
-
 
 
