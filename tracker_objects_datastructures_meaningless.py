@@ -77,9 +77,6 @@ class Initiative:
             itr.data.display_participant()
             itr = itr.next
 
-#        for creature in self.creatures:
- #           creature.display_participant()
-
     def sort_creatures(self):
         def initiative_sorter_score(participant):
             return participant.initiative
